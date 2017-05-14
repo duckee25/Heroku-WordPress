@@ -1,0 +1,41 @@
+
+/* Admin options */
+input.sdw-hidden { display: none; }
+img.sdw-img-select { border: 2px solid #eee; cursor: pointer; border-radius: 4px; background: #fff;}
+img.sdw-img-select.selected {border: 2px solid #0074a2;}
+ul.sdw-img-select-wrap {float: left; width: 100%; display: block; margin: 5px 0;}
+ul.sdw-img-select-wrap li {float: left; margin-right: 1px;}
+
+.sdw-img-select-wrap li span{
+	font-size: 11px;
+	display: block;
+	text-align: center;
+	max-width: 60px;
+	line-height: 13px;
+}
+
+input.sdw-radio{
+	width: 16px;
+	margin-left:0;
+}
+
+body.post-type-page #sdw_layout, body.post-type-page #sdw_sidebar { display: none; }
+
+/* Welcome panel */
+
+.welcome-panel.sdw-welcome-panel{
+	margin: 33px 20px 0 0;
+	padding-bottom: 30px;
+}
+
+.welcome-panel.sdw-welcome-panel .welcome-panel-column,
+.welcome-panel.sdw-welcome-panel .welcome-panel-column:first-child{
+	 max-width: 350px;
+  	margin-right: 40px;
+  	width: 25%;
+}
+
+.sdw-customize-welcome {
+	margin-top: 24px;
+  	display: inline-block;
+}
