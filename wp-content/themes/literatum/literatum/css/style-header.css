@@ -1,0 +1,122 @@
+/*--------------------------------------------------------------
++ Header
+--------------------------------------------------------------*/
+
+/* logo */
+
+div.logo {
+
+}
+
+div.logo #site-logo {
+	font-family:Domine;
+	font-size:26pt;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:20px;
+	color:#fff;
+	text-decoration:none;
+	max-width:200px;
+	transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+
+}
+
+div.logo #site-logo:hover {
+	opacity:0.6;
+}
+
+div.logo #site-logo img {
+	display:block;
+}
+
+div.logo .logo-legend {
+	width:240px;
+	font-size:13px;
+	font-weight:300;
+	display:inline-block;
+	vertical-align:middle;
+	
+	font-family:'PT Sans', sans-serif;
+	
+}
+
+div.logo .logo-legend p {
+	margin:0;
+	padding:0;
+
+}
+
+.logo-legend a {
+	color:#fff;
+}
+
+
+
+
+/* header content */
+
+#masthead {
+	color:#fff;
+	display:block;
+	z-index:0;
+	margin-bottom:-90px;
+
+}
+
+
+
+#masthead.darky {
+	background-color:rgba(0,0,0,0.4);
+
+}
+
+#masthead > .row{
+	padding:0 20px;
+	height:90px;
+
+	display: -webkit-flexbox;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-align: center;
+  	-ms-flex-align: center;
+  	-webkit-align-items: center;
+  	align-items: center;
+	position:relative;
+  	z-index:3;
+  	margin:0 auto;
+
+}
+
+
+
+
+/* ie9 fix */
+.ie9 .row.start-hand {display:table !important;width:100% ;}
+.ie9 .head-column-1, .ie9 .head-column-2, .ie9 .head-column-3 { display:table-cell !important;vertical-align:middle !important;}
+.ie9 .head-column-3 {width:80px;padding-top:5px;}
+/* --------- */
+
+
+
+/* ------------------------------------------------------------
+Responsive magic!
+------------------------------------------------------------ */
+
+
+ /* IPAD */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+/* MOBILE */
+@media only screen and (min-width : 0px) and (max-width : 768px) {
+
+	/* hide the legend text next to the logo */
+	div.logo .logo-legend  {display:none;}
+}
+
+
+

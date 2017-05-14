@@ -1,0 +1,1559 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Literatum v1.2.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-04 12:58:14+0000\n"
+"Last-Translator: admin <kohettemodder@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:11
+#@ literatum
+msgid "Error 404: Page not found"
+msgstr "Error 404: Página no encontrada"
+
+#: 404.php:58
+#@ literatum
+msgid "Page not found."
+msgstr "Página no encontrada."
+
+#: 404.php:60
+#, php-format
+#@ literatum
+msgid "Back to %s"
+msgstr "Volver a %s"
+
+#: elements-head-category.php:68
+#, php-format
+#@ literatum
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: elements-head-category.php:74
+#, php-format
+#@ literatum
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#: elements-head-category.php:81
+#, php-format
+#@ literatum
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: elements-head-category.php:81
+#@ literatum
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: elements-head-category.php:88
+#, php-format
+#@ literatum
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: elements-head-category.php:88
+#@ literatum
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: elements-head-category.php:93
+#@ literatum
+msgid "Asides"
+msgstr ""
+
+#: elements-head-category.php:96
+#@ literatum
+msgid "Galleries"
+msgstr "Galerías"
+
+#: elements-head-category.php:99
+#@ literatum
+msgid "Images"
+msgstr "Imágenes"
+
+#: elements-head-category.php:102
+#@ literatum
+msgid "Videos"
+msgstr "Videos"
+
+#: elements-head-category.php:105
+#@ literatum
+msgid "Quotes"
+msgstr "Citas"
+
+#: elements-head-category.php:108
+#@ literatum
+msgid "Links"
+msgstr "Enlaces"
+
+#: elements-head-category.php:111
+#@ literatum
+msgid "Statuses"
+msgstr "Estados"
+
+#: elements-head-category.php:114
+#@ literatum
+msgid "Audios"
+msgstr "Audios"
+
+#: elements-head-category.php:117
+#@ literatum
+msgid "Chats"
+msgstr "Chats"
+
+#: elements-head-category.php:120
+#@ literatum
+msgid "Archives"
+msgstr "Archivos"
+
+#: comments-wordpress.php:4
+#, php-format
+#@ literatum
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: comments-wordpress.php:11
+#: comments-wordpress.php:29
+#@ literatum
+msgid "Comment navigation"
+msgstr "Navegación comentarios"
+
+#: comments-wordpress.php:12
+#: comments-wordpress.php:30
+#@ literatum
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios Anteriores"
+
+#: comments-wordpress.php:13
+#: comments-wordpress.php:31
+#@ literatum
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios Recientes &rarr;"
+
+#: comments-wordpress.php:41
+#@ literatum
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: content-none.php:12
+#@ literatum
+msgid "Nothing Found"
+msgstr "No se encontraron resultados"
+
+#: content-none.php:18
+#, php-format
+#@ literatum
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: content-none.php:22
+#@ literatum
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "No se encontraron resultados para tus términos de búsqueda. Por favor, inténtalo de nuevo con otros términos."
+
+#: content-none.php:27
+#@ literatum
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que estas buscando. Quizás una búsqueda pueda ayudar."
+
+#: content-page.php:16
+#: content-single.php:26
+#: content.php:27
+#@ literatum
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-page.php:22
+#: content-single.php:78
+#: content.php:61
+#@ literatum
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:52
+#, php-format
+#@ literatum
+msgid "Archived in %1$s and tagged %2$s."
+msgstr "Archivado en %1$s y etiquetado %2$s."
+
+#: content-single.php:54
+#, php-format
+#@ literatum
+msgid "Archived in %1$s."
+msgstr "Archivado en %1$s."
+
+#: content-single.php:61
+#, php-format
+#@ literatum
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Guarda el <a href=\"%3$s\" rel=\"bookmark\">enlace permanente</a>."
+
+#: content-single.php:90
+#@ literatum
+msgid "Share this article"
+msgstr "Comparte este artículo"
+
+#: content.php:24
+#@ literatum
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: content.php:38
+#: content.php:48
+#@ literatum
+msgid ", "
+msgstr ","
+
+#: content.php:42
+#, php-format
+#@ literatum
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#: content.php:52
+#, php-format
+#@ literatum
+msgid "Tagged %1$s"
+msgstr "Etiquetado %1$s"
+
+#: content.php:58
+#@ literatum
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: content.php:58
+#@ literatum
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: content.php:58
+#@ literatum
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: elements-bigcard.php:232
+#: theme-features/site-customize/post-covers.php:209
+#@ literatum
+msgid "Tweet this"
+msgstr "Twittear"
+
+#: elements-bigcard.php:239
+#@ literatum
+msgid "Share"
+msgstr "Compartir"
+
+#: elements-bigcard.php:246
+#: theme-features/site-customize/post-covers.php:211
+#@ literatum
+msgid "Read later"
+msgstr "Leer más tarde"
+
+#: elements-bigcard.php:285
+#: elements-card.php:62
+#: elements-nextpost.php:204
+#: elements-nextpost.php:278
+#, php-format
+#@ literatum
+msgid "By %s"
+msgstr "Por %s"
+
+#: elements-bigcard.php:295
+#: elements-card.php:72
+#: elements-loop-3columns.php:50
+#: elements-loop-default.php:48
+#: elements-nextpost.php:214
+#: elements-nextpost.php:288
+#@ literatum
+msgid "No responses"
+msgstr "Sin comentarios"
+
+#: elements-bigcard.php:295
+#: elements-card.php:72
+#: elements-loop-3columns.php:50
+#: elements-loop-default.php:48
+#: elements-nextpost.php:214
+#: elements-nextpost.php:288
+#@ literatum
+msgid "One response"
+msgstr "Un comentario"
+
+#: elements-bigcard.php:295
+#: elements-card.php:72
+#: elements-loop-3columns.php:50
+#: elements-loop-default.php:48
+#: elements-nextpost.php:214
+#: elements-nextpost.php:288
+#@ literatum
+msgid "% responses"
+msgstr "% comentarios"
+
+#: elements-bigcard.php:313
+#: elements-card.php:90
+#: elements-nextpost.php:232
+#: elements-nextpost.php:306
+#@ literatum
+msgid "views"
+msgstr "vistas"
+
+#: elements-frontpage-design1.php:186
+#@ literatum
+msgid "No more articles"
+msgstr "No hay más artículos"
+
+#: elements-frontpage-design1.php:189
+#@ literatum
+msgid "Loading more articles ..."
+msgstr "Cargando más artículos"
+
+#: elements-nextpost.php:140
+#@ literatum
+msgid "Next article"
+msgstr "Siguiente artículo"
+
+#: elements-nextpost.php:157
+#@ literatum
+msgid "Previous article"
+msgstr "Artículo anterior"
+
+#: header.php:50
+#@ literatum
+msgid "Close"
+msgstr "Cerrar"
+
+#: header.php:210
+#@ literatum
+msgid "Menu"
+msgstr "Menú"
+
+#: kohette-framework/modules/admin-pages-creator/admin-pages-creator.php:159
+#@ default
+msgid "Settings saved."
+msgstr ""
+
+#: kohette-framework/modules/custom-styles/custom-styles.php:155
+#@ narga
+msgid "Layout"
+msgstr ""
+
+#: kohette-framework/modules/custom-styles/custom-styles.php:157
+#@ narga
+msgid "Allows you to edit your themes layout."
+msgstr ""
+
+#: kohette-framework/modules/custom-styles/custom-styles.php:171
+#@ narga
+msgid "Display Custom Text"
+msgstr ""
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:31
+#@ literatum
+msgid "Normal"
+msgstr "Normal"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:32
+#@ literatum
+msgid "Italic"
+msgstr "itálica"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:33
+#@ literatum
+msgid "Oblique"
+msgstr "Oblicua"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:105
+#@ literatum
+msgid "Size"
+msgstr "Tamaño"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:115
+#@ literatum
+msgid "Unit"
+msgstr "Unidad"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:130
+#@ literatum
+msgid "Default"
+msgstr "Por defecto"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:132
+#@ literatum
+msgid "Basic fonts"
+msgstr "Fuentes básicas"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:138
+#@ literatum
+msgid "Google fonts"
+msgstr "Fuentes de Google"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:152
+#@ literatum
+msgid "Regular"
+msgstr "Regular"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:171
+#@ literatum
+msgid "Font style"
+msgstr "Estilo de fuente"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:186
+#@ literatum
+msgid "Line height"
+msgstr "Alto de línea"
+
+#: kohette-framework/modules/settings-creator/options/option-image/option-image.php:42
+#: kohette-framework/modules/taxonomy-controls/taxonomy-controls.php:296
+#: theme-features/author-profile-avatar/author-profile-avatar.php:52
+#: theme-features/author-profile-background-image/author-profile-background-image.php:52
+#@ literatum
+msgid "Select image"
+msgstr "Seleccionar imagen"
+
+#: kohette-framework/modules/settings-creator/options/option-image/option-image.php:51
+#: kohette-framework/modules/taxonomy-controls/taxonomy-controls.php:305
+#: theme-features/author-profile-avatar/author-profile-avatar.php:61
+#: theme-features/author-profile-background-image/author-profile-background-image.php:61
+#@ literatum
+msgid "Remove"
+msgstr "Eliminar"
+
+#: theme-features/ajax-navigation/ajax-navigation.php:222
+#@ literatum
+msgid "AJAX Navigation can be activated with just one click to accelerate and approach the navigation throughout the website."
+msgstr "Puedes activar la navegación AJAX con un solo click. Esto ayuda a acelerar la navegación por todo el sitio web."
+
+#: theme-features/ajax-navigation/ajax-navigation.php:236
+#@ literatum
+msgid "AJAX Navigation"
+msgstr "Navegación AJAX"
+
+#: theme-features/ajax-navigation/ajax-navigation.php:237
+#@ literatum
+msgid "Active dynamic navigation in the site."
+msgstr "Activar navegación dinámica en el sitio."
+
+#: theme-features/ajax-navigation/ajax-navigation.php:238
+#@ literatum
+msgid "To make AJAX ready also the links of the WP menus (appearance/menus) add the class \"ajaxlink\" in the \"CSS Classes\" inputbox of every menu item."
+msgstr "Para hacer que los links de cualquier menu WordPress funcionen también con navegación AJAX, añade la clase \\\"ajaxlink\\\" en la caja de texto \\\"CSS Classes\\\" que se encuentra entre las propiedades de cada elemento de un menú."
+
+#: theme-features/author-profile-avatar/author-profile-avatar.php:36
+#@ literatum
+msgid "Profile avatar"
+msgstr "Avatar de perfil"
+
+#: theme-features/author-profile-avatar/author-profile-avatar.php:49
+#@ literatum
+msgid "Profile avatar image"
+msgstr "Imagen para avatar de perfil"
+
+#: theme-features/author-profile-avatar/author-profile-avatar.php:124
+#@ literatum
+msgid "Select or upload an image to show as profile avatar."
+msgstr "Selecciona o sube una imagen para mostrarla como avatar de perfil."
+
+#: theme-features/author-profile-background-image/author-profile-background-image.php:36
+#@ literatum
+msgid "Profile background"
+msgstr "Fondo del perfil"
+
+#: theme-features/author-profile-background-image/author-profile-background-image.php:49
+#@ literatum
+msgid "Profile background image"
+msgstr "Imagen de fondo de perfil"
+
+#: theme-features/author-profile-background-image/author-profile-background-image.php:124
+#@ literatum
+msgid "Select or upload an image to show as profile background."
+msgstr "Selecciona o sube una imagen para mostrarla como fondo de la página de perfil."
+
+#: theme-features/category-featured-image/featured-image-upload-input.php:15
+#@ literatum
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: theme-features/category-featured-image/featured-image-upload-input.php:16
+#@ literatum
+msgid "Upload an image to illustrate this category."
+msgstr "Sube una imagen para ilustrar esta categoría."
+
+#: theme-features/category-template/template-admin-select.php:45
+#@ literatum
+msgid "Template"
+msgstr "Plantilla"
+
+#: theme-features/category-template/template-admin-select.php:46
+#@ literatum
+msgid "Select a template style to show the articles."
+msgstr "Selecciona un estilo de plantilla para mostrar los artículos de esta categoría."
+
+#: theme-features/menu-slots/menu-slots.php:13
+#@ literatum
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: theme-features/menu-slots/menu-slots.php:16
+#@ literatum
+msgid "Sidebar Bottom Menu"
+msgstr "Menú sidebar abajo"
+
+#: theme-features/post-interview-support/post-interview-support.php:16
+#@ literatum
+msgid "Interview variables"
+msgstr "Variables de entrevista"
+
+#: theme-features/post-interview-support/post-interview-support.php:33
+#@ literatum
+msgid "If this article includes an interview and special controls have been used to enter questions and answers, complete the following fields."
+msgstr "Si este artículo incluye una entrevista y los controles especiales de entrevista han sido utilizados para introducir preguntas y respuestas, completa los siguientes campos."
+
+#: theme-features/post-interview-support/post-interview-support.php:38
+#@ literatum
+msgid "Interviewer"
+msgstr "Entrevistador"
+
+#: theme-features/post-interview-support/post-interview-support.php:39
+#@ literatum
+msgid "insert the name of the <b>interviewer</b>"
+msgstr "Introduce el nombre del entrevistador"
+
+#: theme-features/post-interview-support/post-interview-support.php:51
+#@ literatum
+msgid "Interviewed"
+msgstr "Entrevistado"
+
+#: theme-features/post-interview-support/post-interview-support.php:52
+#@ literatum
+msgid "insert the name of the <b>interviewed</b>"
+msgstr "Introduce el nombre del entrevistado"
+
+#: theme-features/post-interview-support/post-interview-support.php:142
+#@ literatum
+msgid "Question"
+msgstr "Pregunta"
+
+#: theme-features/post-interview-support/post-interview-support.php:145
+#@ literatum
+msgid "Answer"
+msgstr "Respuesta"
+
+#: theme-features/post-photocredit/post-photocredit.php:24
+#@ literatum
+msgid "Featured photo credit"
+msgstr "Crédito de la imagen destacada"
+
+#: theme-features/post-photocredit/post-photocredit.php:47
+#@ literatum
+msgid "Insert the photo credit of the featured image for this article."
+msgstr "Introduce el crédito de la imagen destacada para este artículo."
+
+#: theme-features/post-share-vars/post-share-vars.php:78
+#@ literatum
+msgid "Fill this fields to make the site and the articles fully shareables in social media sites."
+msgstr "Rellena estos campos para hacer que los artículos y el sitio sean mas compatibles con las principales redes sociales."
+
+#: theme-features/post-share-vars/share-to-facebook.php:18
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:34
+#@ literatum
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: theme-features/post-share-vars/share-to-facebook.php:20
+#, php-format
+#@ literatum
+msgid "Add the Facebook app ID of %s in Facebook."
+msgstr "Añade la App ID de Facebook para este sitio."
+
+#: theme-features/post-share-vars/share-to-facebook.php:30
+#@ literatum
+msgid "Facebook Page URL"
+msgstr "Página de Facebook"
+
+#: theme-features/post-share-vars/share-to-facebook.php:32
+#, php-format
+#@ literatum
+msgid "Insert the <b>full url</b> of the page of %s in Facebook."
+msgstr "Introduce la <b>url completa</b> de la página de %s en Facebook."
+
+#: theme-features/post-share-vars/share-to-twitter.php:20
+#@ literatum
+msgid "Site Twitter"
+msgstr "Twitter del sitio"
+
+#: theme-features/post-share-vars/share-to-twitter.php:22
+#, php-format
+#@ literatum
+msgid "Add the username of %s in Twitter. (without @)"
+msgstr "Añade el nombre de usuario de %s en Twitter (Sin la arroba)"
+
+#: theme-features/post-subtitle/post-subtitle.php:27
+#: theme-features/post-subtitle/post-subtitle.php:30
+#@ literatum
+msgid "Enter subtitle here"
+msgstr "Introduce subtítulo"
+
+#: theme-features/post-template-tags/post-template-tags.php:20
+#@ literatum
+msgid "Posts navigation"
+msgstr "Navegación de entradas"
+
+#: theme-features/post-template-tags/post-template-tags.php:24
+#@ literatum
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Entradas anteriores"
+
+#: theme-features/post-template-tags/post-template-tags.php:28
+#@ literatum
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Entradas recientes <span class=\"meta-nav\">&rarr;</span>"
+
+#: theme-features/post-template-tags/post-template-tags.php:51
+#@ literatum
+msgid "Post navigation"
+msgstr "Navegación de entrada"
+
+#: theme-features/post-template-tags/post-template-tags.php:54
+#, php-format
+#@ literatum
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: theme-features/post-template-tags/post-template-tags.php:55
+#, php-format
+#@ literatum
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: theme-features/post-template-tags/post-template-tags.php:80
+#, php-format
+#@ literatum
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Publicada  en %1$s</span><span class=\"byline\"> por %2$s</span>"
+
+#: theme-features/post-video-cover/post-video-cover.php:24
+#@ literatum
+msgid "Video cover"
+msgstr "Carátula de video"
+
+#: theme-features/post-video-cover/post-video-cover.php:40
+#@ literatum
+msgid "Add a video to show as cover for this post."
+msgstr "Añade un video para mostrarlo como carátula para esta entrada."
+
+#: theme-features/post-video-cover/post-video-cover.php:48
+#@ literatum
+msgid "Video Source"
+msgstr ""
+
+#: theme-features/post-video-cover/post-video-cover.php:60
+#@ literatum
+msgid "Remove video cover"
+msgstr "Eliminar carátula de video"
+
+#: theme-features/post-video-cover/post-video-cover.php:69
+#@ literatum
+msgid "Select a video from the Media library or upload a new one."
+msgstr "Selecciona un video de la librería multimedia o sube uno nuevo."
+
+#: theme-features/post-video-cover/post-video-cover.php:71
+#@ literatum
+msgid "Introduce the URL of the video file."
+msgstr "Introduce la URL del archivo de video."
+
+#: theme-features/post-video-cover/post-video-cover.php:93
+#@ literatum
+msgid "Select video cover"
+msgstr "Seleccionar carátula de video"
+
+#: theme-features/post-video-cover/post-video-cover.php:96
+#@ default
+msgid "Use URL"
+msgstr ""
+
+#: theme-features/post-video-cover/post-video-cover.php:100
+#@ literatum
+msgid "Available formats:"
+msgstr "Formatos permitidos:"
+
+#: theme-features/post-video-cover/post-video-cover.php:156
+#@ literatum
+msgid "The introduced URL does not seem as a valid video file. Please, introduce a valid video file URL."
+msgstr "La URL introducida no parece corresponder a un formato de video válido. Por favor, introduce una URL válida."
+
+#: theme-features/post-wordscount/post-wordscount.php:35
+#@ literatum
+msgid "words"
+msgstr "palabras"
+
+#: theme-features/post-wordscount/post-wordscount.php:38
+#@ literatum
+msgid "min read"
+msgstr "min lectura"
+
+#: theme-features/post-wordscount/post-wordscount.php:63
+#: theme-features/post-wordscount/post-wordscount.php:65
+#@ literatum
+msgid "Read Time"
+msgstr "Tiempo de Lectura"
+
+#: theme-features/post-wordscount/post-wordscount.php:78
+#@ literatum
+msgid "Read Time for articles"
+msgstr "Tiempo de Lectura para artículos"
+
+#: theme-features/post-wordscount/post-wordscount.php:79
+#@ literatum
+msgid "Configure the Read Time option for articles."
+msgstr "Configura el Tiempo de Lectura para artículos."
+
+#: theme-features/post-wordscount/post-wordscount.php:91
+#@ literatum
+msgid "Display Read Time"
+msgstr "Mostrar Tiempo de Lectura"
+
+#: theme-features/post-wordscount/post-wordscount.php:92
+#@ literatum
+msgid "Active the display of the read time option in the articles."
+msgstr "Activa el tiempo de lectura para artículos."
+
+#: theme-features/post-wordscount/post-wordscount.php:93
+#@ literatum
+msgid "Check this option if you want to active read time"
+msgstr "Selecciona esta opción para activar el tiempo de lectura"
+
+#: theme-features/post-wordscount/post-wordscount.php:109
+#@ literatum
+msgid "Display Type"
+msgstr "Tipo a mostrar"
+
+#: theme-features/post-wordscount/post-wordscount.php:110
+#@ literatum
+msgid "Choose display type."
+msgstr "Selecciona el tipo de información a mostrar."
+
+#: theme-features/post-wordscount/post-wordscount.php:111
+#@ literatum
+msgid "Select between display the read time or the number of words."
+msgstr "Selecciona entre mostrar el tiempo de lectura o el número de palabras del artículo."
+
+#: theme-features/post-wordscount/post-wordscount.php:114
+#@ literatum
+msgid "Read time"
+msgstr "Tiempo de lectura"
+
+#: theme-features/post-wordscount/post-wordscount.php:115
+#@ literatum
+msgid "Words count"
+msgstr "Total de palabras"
+
+#: theme-features/site-analytics/site-analytics.php:20
+#@ literatum
+msgid "Configure this fields to see the analytics of your website."
+msgstr "Configura estos campos para activar las analíticas en tu sitio web"
+
+#: theme-features/site-analytics/site-analytics.php:37
+#@ literatum
+msgid "Google Analytics"
+msgstr ""
+
+#: theme-features/site-analytics/site-analytics.php:38
+#@ literatum
+msgid "Configuration of the site for Google Analytics."
+msgstr "Configuración del sitio para Google Analytics"
+
+#: theme-features/site-analytics/site-analytics.php:52
+#@ literatum
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#: theme-features/site-analytics/site-analytics.php:54
+#@ literatum
+msgid "Introduce the ID code of the site in your Google Analytics account. (UA-00000000-0)"
+msgstr "Introduce el código ID del sitio de tu cuenta en Google Analytics.  (UA-00000000-0)"
+
+#: theme-features/site-analytics/site-analytics.php:67
+#@ literatum
+msgid "Active Google analytics"
+msgstr "Activar Google Analytics"
+
+#: theme-features/site-analytics/site-analytics.php:69
+#, php-format
+#@ literatum
+msgid "Check this option to active Google Analytics in %s"
+msgstr "Selecciona esta opción para activar Google Analytics en %s"
+
+#: theme-features/site-analytics/site-analytics.php:82
+#@ literatum
+msgid "Google Analytics position"
+msgstr "Posición Google Analytics"
+
+#: theme-features/site-analytics/site-analytics.php:84
+#@ literatum
+msgid "Where should the tracking code be placed?"
+msgstr "¿Dónde se debería situar el código de tracking?"
+
+#: theme-features/site-analytics/site-analytics.php:87
+#@ literatum
+msgid "In header (Recommended)"
+msgstr "En el header (Recomendado)"
+
+#: theme-features/site-analytics/site-analytics.php:88
+#@ literatum
+msgid "In footer"
+msgstr "En el footer"
+
+#: theme-features/site-custom-css/site-custom-css.php:19
+#@ literatum
+msgid "The custom CSS option allow you to do things like hide elements on a page, reposition images, or change fonts"
+msgstr "La opción de CSS personalizado te permite realizar acciones como esconder elements de una página, reposicionar imágenes o cambiar fuentes tipográficas."
+
+#: theme-features/site-custom-css/site-custom-css.php:33
+#@ literatum
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#: theme-features/site-custom-css/site-custom-css.php:35
+#@ literatum
+msgid "Add your own custom CSS that override theme default style."
+msgstr "Añade tu propio CSS personalizado"
+
+#: theme-features/site-customize/author-profile.php:20
+#@ literatum
+msgid "Author profile"
+msgstr "Perfil de autor"
+
+#: theme-features/site-customize/author-profile.php:21
+#: theme-features/site-customize/post-content.php:21
+#@ literatum
+msgid "Customize settings for the post content."
+msgstr "Opciones de personalización para el contenido de entrada."
+
+#: theme-features/site-customize/author-profile.php:22
+#@ literatum
+msgid "Author Profile"
+msgstr "Perfil de autor"
+
+#: theme-features/site-customize/author-profile.php:35
+#@ literatum
+msgid "Author pages"
+msgstr "Páginas de autor"
+
+#: theme-features/site-customize/author-profile.php:36
+#@ literatum
+msgid "Configure the author page style."
+msgstr "Configura el estilo de la página de autor."
+
+#: theme-features/site-customize/author-profile.php:48
+#@ literatum
+msgid "Author name font style"
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:50
+#@ literatum
+msgid "Adjust the font style of the author name."
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:74
+#@ literatum
+msgid "Author bio font style"
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:76
+#@ literatum
+msgid "Adjust the font style of the author bio."
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:130
+#: theme-features/site-customize/post-content.php:144
+#: theme-features/site-customize/site-general.php:148
+#@ literatum
+msgid "Bottom info"
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:132
+#: theme-features/site-customize/post-content.php:146
+#: theme-features/site-customize/site-general.php:150
+#@ literatum
+msgid "Select the post information you want to be displayed under the post content."
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:136
+#: theme-features/site-customize/post-content.php:150
+#: theme-features/site-customize/site-general.php:154
+#@ literatum
+msgid "Post categories and tags"
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:137
+#: theme-features/site-customize/post-content.php:151
+#: theme-features/site-customize/site-general.php:155
+#@ literatum
+msgid "Post permalink"
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:156
+#: theme-features/site-customize/post-content.php:170
+#: theme-features/site-customize/site-general.php:174
+#@ literatum
+msgid "Bottom share links"
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:158
+#: theme-features/site-customize/post-content.php:172
+#: theme-features/site-customize/site-general.php:176
+#@ literatum
+msgid "Select the share links you want to be displayed under the post content."
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:162
+#: theme-features/site-customize/post-content.php:176
+#: theme-features/site-customize/site-general.php:180
+#@ literatum
+msgid "Twitter"
+msgstr ""
+
+#: theme-features/site-customize/author-profile.php:163
+#: theme-features/site-customize/post-content.php:177
+#: theme-features/site-customize/site-general.php:181
+#@ literatum
+msgid "Facebook"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:20
+#: theme-features/site-customize/category-pages.php:22
+#@ literatum
+msgid "Category pages"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:21
+#@ literatum
+msgid "Customize settings for the category pages."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:35
+#@ literatum
+msgid "Category page header"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:36
+#@ literatum
+msgid "Configure the header of the category pages."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:48
+#@ literatum
+msgid "Header title font style"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:50
+#@ literatum
+msgid "Adjust the font style of the category title displayed in the header of the category page."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:67
+#@ literatum
+msgid "Header subtitle font style"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:69
+#@ literatum
+msgid "Adjust the font style of the category subtitle displayed in the header of the category page."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:101
+#@ literatum
+msgid "Category Template: Simple list of articles"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:102
+#@ literatum
+msgid "Configure the style of the Simple list of styles template."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:114
+#: theme-features/site-customize/category-pages.php:254
+#@ literatum
+msgid "Posts title font style"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:116
+#: theme-features/site-customize/category-pages.php:256
+#@ literatum
+msgid "Adjust the font style of the post titles displayed in this category template."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:138
+#: theme-features/site-customize/category-pages.php:278
+#@ literatum
+msgid "Posts excerpt font style"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:140
+#: theme-features/site-customize/category-pages.php:280
+#@ literatum
+msgid "Adjust the font style of the post excerpts displayed in this category template."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:165
+#: theme-features/site-customize/category-pages.php:305
+#: theme-features/site-customize/post-covers.php:143
+#: theme-features/site-customize/post-covers.php:293
+#@ literatum
+msgid "Display post info"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:167
+#: theme-features/site-customize/category-pages.php:307
+#@ literatum
+msgid "Select the information you want to appear under the post exceprt."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:171
+#: theme-features/site-customize/category-pages.php:311
+#: theme-features/site-customize/post-covers.php:149
+#: theme-features/site-customize/post-covers.php:299
+#@ literatum
+msgid "Post date"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:172
+#: theme-features/site-customize/category-pages.php:312
+#: theme-features/site-customize/post-covers.php:150
+#: theme-features/site-customize/post-covers.php:300
+#@ literatum
+msgid "Post author"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:173
+#: theme-features/site-customize/category-pages.php:313
+#: theme-features/site-customize/post-covers.php:151
+#: theme-features/site-customize/post-covers.php:301
+#@ literatum
+msgid "Post comments"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:184
+#: theme-features/site-customize/category-pages.php:324
+#: theme-features/site-customize/post-covers.php:162
+#: theme-features/site-customize/post-covers.php:312
+#@ literatum
+msgid "Post read time"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:198
+#: theme-features/site-customize/category-pages.php:338
+#@ literatum
+msgid "Posts meta font style"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:200
+#: theme-features/site-customize/category-pages.php:340
+#@ literatum
+msgid "Adjust the font style of the post meta info displayed in this category template."
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:241
+#@ literatum
+msgid "Category Template: 3 Columns"
+msgstr ""
+
+#: theme-features/site-customize/category-pages.php:242
+#@ literatum
+msgid "Configure the style of the 3 columns template."
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:20
+#: theme-features/site-customize/post-content.php:22
+#@ literatum
+msgid "Post content"
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:35
+#@ literatum
+msgid "Post/Page content"
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:36
+#@ literatum
+msgid "Configure the single post/page content style."
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:48
+#@ literatum
+msgid "Content font style"
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:50
+#@ literatum
+msgid "Adjust the font style of the post content."
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:78
+#: theme-features/site-customize/site-general.php:113
+#@ literatum
+msgid "Content link color"
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:80
+#: theme-features/site-customize/site-general.php:115
+#@ literatum
+msgid "Adjust the color of the links in the post content."
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:87
+#: theme-features/site-customize/site-general.php:122
+#@ literatum
+msgid "Link color"
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:93
+#: theme-features/site-customize/site-general.php:128
+#@ literatum
+msgid "Link color on hover"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:22
+#: theme-features/site-customize/post-covers.php:24
+#@ literatum
+msgid "Post covers"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:23
+#: theme-features/site-customize/site-customize.php:18
+#@ literatum
+msgid "Customize settings for post covers."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:37
+#@ literatum
+msgid "Big post cover"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:38
+#@ literatum
+msgid "Configure the post cover. This changes the aspect of the post cover in the single post page and in the first post of the home page also."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:53
+#: theme-features/site-customize/post-covers.php:273
+#@ literatum
+msgid "Post title font style"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:55
+#: theme-features/site-customize/post-covers.php:275
+#@ literatum
+msgid "Adjust the font style for the post titles."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:74
+#@ literatum
+msgid "Display subtitle"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:75
+#@ literatum
+msgid "Display the subtitle of the article if it is available."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:76
+#@ literatum
+msgid "Check this option to display the article's subtitle."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:93
+#@ literatum
+msgid "Post subtitle font style"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:95
+#@ literatum
+msgid "Adjust the font style for the post subtitle."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:118
+#@ literatum
+msgid "Text align"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:120
+#@ literatum
+msgid "Selecciona la posición por defecto dónde quieres que aparezca el título y la demás informacion del artículo."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:124
+#@ literatum
+msgid "Centered"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:125
+#@ literatum
+msgid "Left center"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:126
+#@ literatum
+msgid "Center bottom"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:127
+#@ literatum
+msgid "Left bottom"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:145
+#: theme-features/site-customize/post-covers.php:295
+#@ literatum
+msgid "Select the information you want to appear under the title/subtitle."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:176
+#@ literatum
+msgid "Post info font style"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:178
+#@ literatum
+msgid "Adjust the font style of the post meta information."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:203
+#@ literatum
+msgid "Display share links"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:205
+#@ literatum
+msgid "Select the share links you want to be displayed above the post title."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:210
+#@ literatum
+msgid "Share on Facebook"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:229
+#: theme-features/site-customize/post-covers.php:342
+#@ literatum
+msgid "Mask opacity"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:231
+#: theme-features/site-customize/post-covers.php:344
+#@ literatum
+msgid "Select the mask opacity of the image. 90% = the darkest."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:262
+#@ literatum
+msgid "Small post cover"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:263
+#@ literatum
+msgid "Configure the small post cover. These covers appear in the home page under the latest post big cover."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:325
+#@ literatum
+msgid "Hover effect"
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:326
+#@ literatum
+msgid "Display the post information only on hover."
+msgstr ""
+
+#: theme-features/site-customize/post-covers.php:327
+#@ literatum
+msgid "Check this option to display the post information only when the visitor put the cursor hover the cover."
+msgstr ""
+
+#: theme-features/site-customize/site-customize.php:17
+#: theme-features/site-customize/site-customize.php:19
+#@ literatum
+msgid "Customize Options"
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:20
+#: theme-features/site-customize/site-general.php:22
+#@ literatum
+msgid "General"
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:21
+#@ literatum
+msgid "Customize the general elements of the theme."
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:35
+#@ literatum
+msgid "Site header"
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:36
+#@ literatum
+msgid "Configure the header of the site."
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:48
+#@ literatum
+msgid "Website slogan font style"
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:50
+#@ literatum
+msgid "Adjust the font style of text used as website slogan."
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:81
+#@ literatum
+msgid "Main menu font style"
+msgstr ""
+
+#: theme-features/site-customize/site-general.php:83
+#@ literatum
+msgid "Adjust the font style of the main menu displayed in the top right of the page."
+msgstr ""
+
+#: theme-features/site-footertext/site-footertext.php:36
+#@ literatum
+msgid "Sidebar Bottom Firm"
+msgstr ""
+
+#: theme-features/site-footertext/site-footertext.php:38
+#@ literatum
+msgid "This text appear in the bottom side of the sidebar."
+msgstr ""
+
+#: theme-features/site-logo-and-icon/site-logo-and-icon.php:34
+#@ literatum
+msgid "Site logo & Favicon"
+msgstr ""
+
+#: theme-features/site-logo-and-icon/site-logo-and-icon.php:35
+#@ literatum
+msgid "Add a custom logo and favicon to your site."
+msgstr ""
+
+#: theme-features/site-logo-and-icon/site-logo-and-icon.php:48
+#@ literatum
+msgid "Logo image"
+msgstr ""
+
+#: theme-features/site-logo-and-icon/site-logo-and-icon.php:50
+#@ literatum
+msgid "Upload a logo image for your site."
+msgstr ""
+
+#: theme-features/site-logo-and-icon/site-logo-and-icon.php:67
+#@ literatum
+msgid "Favicon"
+msgstr ""
+
+#: theme-features/site-logo-and-icon/site-logo-and-icon.php:69
+#@ literatum
+msgid "Upload a favicon image for your site."
+msgstr ""
+
+#: theme-features/site-slogan/site-slogan.php:33
+#@ literatum
+msgid "Website Slogan"
+msgstr ""
+
+#: theme-features/site-slogan/site-slogan.php:35
+#@ literatum
+msgid "This text appear next to the website logo/name."
+msgstr ""
+
+#: theme-features/site-slogan/site-slogan.php:38
+#@ literatum
+msgid "This is the website slogan, can be edited in Theme options / General."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:32
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:34
+#: theme-features/site-thirdparty-comments/third-party/facebook/hooks&functions.php:45
+#@ literatum
+msgid "Comments"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:33
+#, php-format
+#@ literatum
+msgid "Comments settings for %s."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:49
+#@ literatum
+msgid "Comments system"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:51
+#, php-format
+#@ literatum
+msgid "Select what type of comments system you want to use in %s."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:21
+#@ literatum
+msgid "Disqus configuration"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:22
+#@ literatum
+msgid "Fill the fileds with your Disqus information."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:34
+#@ literatum
+msgid "Disqus shortname"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:36
+#@ literatum
+msgid "Tells the Disqus service your forum's shortname, which is the unique identifier for your website as registered on Disqus. If undefined, the Disqus embed will not load."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:51
+#@ literatum
+msgid "Disable mobile"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:52
+#@ literatum
+msgid "Tells the Disqus service to never use the mobile optimized version of Disqus."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:21
+#@ literatum
+msgid "Facebook configuration"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:22
+#@ literatum
+msgid "Configure Facebook comments for your site."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:36
+#@ literatum
+msgid "Initialize the Facebook JavaScript SDK using this app."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:51
+#@ literatum
+msgid "Number of comments"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:53
+#@ literatum
+msgid "Number of comments to load by default."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:67
+#@ literatum
+msgid "Comments order"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:69
+#@ literatum
+msgid "The order to use when displaying comments."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:72
+#@ literatum
+msgid "Social relevance"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:73
+#@ literatum
+msgid "Recents first"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:74
+#@ literatum
+msgid "Older first"
+msgstr ""
+
+#: theme-features/user-contactfields/user-contactfields.php:14
+#@ literatum
+msgid "Twitter username"
+msgstr ""
+
+#: theme-features/user-contactfields/user-contactfields.php:17
+#@ literatum
+msgid "Facebook username"
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:13
+#@ literatum
+msgid "The widgets introduced in this área appear on the top of the sidebar in every page. Use this area to display the most popular widgets of the site such as the search widget or the main navigation menu widget."
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:23
+#@ literatum
+msgid "The widgets introduced in this area only appear on the home page. Put here the widgets you want to display in the sidebar when the visitor is at the home page site."
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:33
+#@ literatum
+msgid "The widgets introduced in this area only appear on the post template."
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:43
+#@ literatum
+msgid "The widgets introduced in this area only appear on the pages template."
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:53
+#@ literatum
+msgid "The widgets introduced in this area only appear on the category and tag templates."
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:63
+#@ literatum
+msgid "The widgets introduced in this area only appear on the personal profile site."
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:73
+#@ literatum
+msgid "The widgets in this area are only introduced on the templates that do not belong to any of the types above."
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:83
+#@ literatum
+msgid "The widgets introduced in this area appear on every page of the website, on the bottom of the sidebar, below the widgets from other areas."
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:113
+#@ literatum
+msgid "Post content width"
+msgstr ""
+
+#: theme-features/site-customize/post-content.php:123
+#@ literatum
+msgid "Adjust the width of the post content."
+msgstr ""
+

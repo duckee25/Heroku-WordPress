@@ -1,0 +1,847 @@
+
+/* 
+Aesop story fixes and styles
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------
+content
+--------------------------------------------------------------- */
+
+article .entry-content .aesop-content-component,
+article .entry-content .aesop-content-component div,
+article .entry-content .aesop-content-comp-wrap {
+	max-width:none;
+	margin:auto;
+	-webkit-font-smoothing:antialiased;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.09);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------
+Image
+--------------------------------------------------------------- */
+
+article .entry-content .aesop-image-component {
+	
+	margin:auto;
+}
+
+
+
+
+
+article .entry-content .aesop-img-enlarge {
+	position:absolute;
+	margin-top:5px;
+	margin-left:5px;
+	background-color:rgba(0,0,0,0.4);
+	color:#fff;
+	padding:5px 10px;
+	border-radius:2px;
+	font-size:10px;
+	font-family:'helvetica neue', helvetica, arial, sans-serif;
+	font-weight:700;
+	-webkit-font-smoothing:antialiased;
+	opacity:0;
+	transition: background-color .15s ease-in-out;
+    -moz-transition: -moz-background-color .15s ease-in-out;
+    -webkit-transition: -webkit-background-color .15s ease-in-out;
+    cursor:pointer;
+}
+
+article .entry-content .aesop-img-enlarge:hover {
+	background-color:rgba(0,0,0,0.6);
+}
+
+article .entry-content .aesop-image-component:hover .aesop-img-enlarge {
+	opacity:1;
+}
+
+
+article .entry-content .aesop-image-component .aesop-image-component-caption {
+	color:#878888;
+	line-height:1.4em;
+	font-family:'PT Sans', 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+
+
+
+article .entry-content .aesop-image-component  .aesop-cap-cred {
+	padding-left:0;
+	padding-right:0;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------
+video
+--------------------------------------------------------------- */
+
+article .entry-content .aesop-video-component, 
+article .entry-content .aesop-video-component div {
+	max-width:none;
+	margin:auto;
+}
+
+article .entry-content .aesop-video-component {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+article .entry-content .aesop-video-component .aesop-video-component-caption {
+	line-height:1.5em;
+	margin-top:15px;
+	font-family:'PT Sans', 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+
+/* ------------------------------------------------------------
+Quote
+--------------------------------------------------------------- */
+
+article .entry-content .aesop-quote-component,
+article .entry-content .aesop-quote-component div,
+article .entry-content .aesop-quote-component blockquote{
+	max-width:none;
+	margin:auto;
+	
+}
+
+
+article .entry-content .aesop-quote-component blockquote {
+	color:inherit;
+	padding:30px;
+}
+
+
+article .entry-content .aesop-quote-component blockquote .aesop-quote-component-cite {
+	opacity:0.8;
+	font-weight:200;
+	
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------
+Collections
+--------------------------------------------------------------- */
+
+
+
+article .entry-content .aesop-story-collection div,
+article .entry-content .aesop-story-collection ul,
+article .entry-content .aesop-story-collection li,
+article .entry-content .aesop-story-collection p,
+article .entry-content .aesop-story-collection h2 {
+    max-width:none;
+    padding:0;
+   
+}
+
+
+article .entry-content .aesop-story-collection {
+    max-width:880px;
+    padding: 0 20px;
+    margin-top:70px;
+}
+
+
+article .entry-content .aesop-story-collection .aesop-story-collection-title {
+    padding:0;
+    max-width:none;
+}
+
+article .entry-content .aesop-story-collection .aesop-collection-item {
+    display:inline-block;
+    float:left;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+article .entry-content .aesop-story-collection  a {
+    text-decoration:none;
+}
+article .entry-content .aesop-story-collection .aesop-collection-item-inner {
+    
+}
+
+
+article .entry-content .aesop-story-collection .aesop-collection-item .aesop-collection-entry-title {
+    line-height:1.3em;
+    padding-right:10px;
+}
+
+article .entry-content .aesop-story-collection .aesop-collection-item .aesop-collection-meta {
+    font-size:13px;
+    display:block;
+    margin:5px 0;
+    color:#aaa;
+    font-weight:200;
+}
+
+article .entry-content .aesop-story-collection .aesop-collection-item .aesop-collection-item-excerpt {
+    font-size:14px;
+    color:#666;
+    padding-right:15px;
+}
+
+/* ------------------------------------------------------------
+Parallax
+--------------------------------------------------------------- */
+article .entry-content .aesop-parallax-component,
+article .entry-content .aesop-parallax-sc-img {
+	max-width:none;
+	margin:auto;
+}
+
+
+article .aesop-parallax-sc-caption-wrap {
+	border-radius:2px;
+	color:#eee;
+	background-color:rgba(0,0,0,0.4);
+	font-family:'PT Sans', sans-serif;
+	font-size:13px;
+	-webkit-font-smoothing:antialiased;
+	font-weight:500;
+	padding:7px 12px;
+	cursor:default;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------
+Character
+--------------------------------------------------------------- */
+
+article .aesop-character-component  {
+    padding:5px 15px;
+    font-family:'PT Sans', 'helvetica neue', helvetica, arial, sans-serif;
+    text-align:left;
+}
+
+
+article .aesop-character-component.aesop-component-align-right {
+    margin-right:80px;
+}
+
+article .aesop-character-component.aesop-component-align-left {
+    margin-left:80px;
+}
+
+article .aesop-character-inner {
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+
+article .aesop-character-inner .aesop-character-title {
+    text-align:center;
+    padding:12px 15px;
+    display:block;
+    font-weight:500;
+}
+
+article .aesop-character-inner .aesop-character-cap {
+    padding:20px;
+    line-height:1.5em;
+    font-size:13px;
+    color:#777;
+}
+
+
+
+
+
+/* ------------------------------------------------------------
+Documents
+--------------------------------------------------------------- */
+article .aesop-documument-component,
+article .aesop-document-component  {
+    text-align:center;
+    background-color:rgba(0,0,0,0.04);
+    padding:50px 0;
+}
+
+
+article .aesop-documument-component a ,
+article .aesop-document-component a {
+    
+    font-size:13pt;
+
+}
+
+article .aesop-documument-component a span,
+article .aesop-document-component a span {
+    padding:0 0 10px 0;
+    display:inline-block;
+    font-size:15pt;
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------
+Maps
+--------------------------------------------------------------- */
+
+article .entry-content .aesop-map-component {
+	max-width:none;
+	margin:auto;
+}
+
+article .leaflet-popup-content {
+	padding:15px;
+
+}
+
+article .leaflet-popup-content-wrapper {
+	border-radius:2px;
+	color:#eee;
+	background-color:#363F48;
+	font-family:'PT Sans', sans-serif;
+	font-size:12px;
+	-webkit-font-smoothing:antialiased;
+	font-weight:700;
+}
+
+
+article .leaflet-container a.leaflet-popup-close-button {
+	background-color:#e74c3c;
+	padding:0px;
+	border-radius:10px;
+	height:18px;
+	width:18px;
+	line-height:18px;
+	font-size:11px;
+	right:-7px;
+	top:-7px;
+	text-align:center;
+	font-weight:300;
+	color:#fff;
+	box-shadow:1px 1px 1px rgba(0,0,0,0.2);
+	-webkit-font-smoothing:antialiased;
+}
+
+article .leaflet-container a.leaflet-popup-close-button:hover {
+	color:#fff;
+	background-color:#c0392b;
+}
+
+
+article .leaflet-popup-tip {
+	background-color:#363F48;
+	margin-top:-10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------
+Chapters
+--------------------------------------------------------------- */
+article .entry-content .aesop-article-chapter,
+article .entry-content .aesop-article-chapter-wrap {
+	max-width:none ;
+	margin:auto;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+
+
+article .entry-content .aesop-article-chapter {
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+	display:table;
+	position:relative;
+}
+
+article .entry-content .aesop-article-chapter h2 {
+	
+	
+	
+	margin:auto;
+	padding:20px 50px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+
+	
+}
+
+article .entry-content .aesop-article-chapter h2 small {
+	display:block;
+	max-width:740px;
+	padding:0 30px;
+	margin:5px auto auto auto;
+
+}
+
+
+
+
+
+
+article .entry-content .aesop-article-chapter-wrap.has-chapter-image .aesop-article-chapter h2 {
+	
+	color:#fff;
+	font-size:50px;
+	-webkit-font-smoothing:antialiased;
+
+	font-size:40pt;
+	line-height:58px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.3);
+	font-family:Domine;
+	
+	font-weight:700;
+	color:rgba(255,255,255,0.9);
+
+
+	display:table-cell;
+	vertical-align:bottom;
+	
+	/display: inline-block;
+	max-width:740px;
+	padding:40px 50px 80px 50px;
+
+
+
+
+
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40NCIvPgogICAgPHN0b3Agb2Zmc2V0PSIyOSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4xOCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvcmFkaWFsR3JhZGllbnQ+CiAgPHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.44) 0%, rgba(0,0,0,0.18) 29%, rgba(0,0,0,0) 50%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.44)), color-stop(29%,rgba(0,0,0,0.18)), color-stop(50%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.44) 0%,rgba(0,0,0,0.18) 29%,rgba(0,0,0,0) 50%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.44) 0%,rgba(0,0,0,0.18) 29%,rgba(0,0,0,0) 50%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.44) 0%,rgba(0,0,0,0.18) 29%,rgba(0,0,0,0) 50%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0.44) 0%,rgba(0,0,0,0.18) 29%,rgba(0,0,0,0) 50%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70000000', endColorstr='#00000000',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI3MSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4zIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC43MiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 71%, rgba(0,0,0,0.72) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,rgba(0,0,0,0)), color-stop(71%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.72))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.3) 71%,rgba(0,0,0,0.72) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.3) 71%,rgba(0,0,0,0.72) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.3) 71%,rgba(0,0,0,0.72) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.3) 71%,rgba(0,0,0,0.72) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b8000000',GradientType=0 ); /* IE6-8 */
+
+
+}
+
+
+article .entry-content .aesop-article-chapter-wrap.has-chapter-image .aesop-article-chapter h2 small {
+	font-size:22pt;
+	line-height:1.3em;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.3);
+	font-family:'helvetica neue', helvetica, arial, sans-serif;
+	line-height:1.2em;
+	font-weight:200;
+	color:rgba(255,255,255,0.67);
+}
+
+
+
+
+
+
+
+ .chapters-wrap {
+
+            text-align:center;
+            color:#fff;
+            max-width:none !important;
+            position:fixed;
+            top:-99999;
+            left:-999999990;
+
+
+            width:100%;
+            height:100%;
+            background-color:rgba(0,0,0,0.0);
+            
+            z-index:9999;
+            
+            transition: position .15s ease-in-out;
+            -moz-transition: position .15s ease-in-out;
+            -webkit-transition: position .15s ease-in-out;
+
+            -webkit-font-smoothing:antialiased;
+
+            overflow-y:scroll;
+
+            
+        }
+
+        .chapters-wrap.display {
+            display:block;
+            top:0;
+            left:0;
+            background-color:rgba(44,49,53,0.99);
+           
+        }
+
+
+        .chapters-label {
+            font-size:2.5em;
+            font-family:domine;
+            padding: 20px 0 0 0;
+            display:block;
+            color:rgba(0,0,0,0.28);
+            cursor:default;
+            /*text-shadow: 1px 1px 0px rgba(255,255,255,0.2);*/
+        }
+
+
+        .chapters-div {
+            position: relative;
+            
+            width:100%;
+            max-width:none;
+            list-style-type: none;
+            display:inline-block;
+           
+            transform: scale(0.3);
+            transition: transform .325s ease-in-out;
+            -moz-transition:  -moz-transform .325s ease-in-out;
+            -webkit-transition: -webkit-transform .325s ease-in-out;
+            padding:100px;
+            max-width: none !important;
+
+
+        }
+
+        .chapters-wrap.display .chapters-div {
+            transform: scale(1);
+            
+        }
+
+
+        .chapters-div > ul {
+           
+            margin:20px auto 0 auto;
+            padding:0;
+            list-style-type: upper-roman;
+            max-width:400px;
+            display:block;
+
+        }
+
+        .chapters-div > ul li {
+            
+            text-align:left;
+            margin:15px 4px;
+            min-width:200px;
+            color:#fff;
+            cursor:pointer;
+            position:relative;
+        }
+
+        .chapters-div > ul li:hover:before {
+            color:#e74c3c;
+            content: '→';
+            position:absolute;
+            left:-70px;
+            top:20px;
+            font-size:18px;
+        }
+
+
+        .chapters-div li .chapter-title {
+            padding:15px 0 4px 0;
+            font-size:1.3em;
+            font-family:domine;
+            line-height:1.1em;
+            color:#ddd;
+            transition: color .15s ease-in-out;
+            -moz-transition: color .15s ease-in-out;
+            -webkit-transition: color .15s ease-in-out;
+
+        }
+
+        .chapters-div li:hover .chapter-title {
+            color:rgba(255,255,255,1);
+        }
+
+
+
+        .chapters-div li .chapter-title small {
+            font-size:0.6em;
+            font-family:'PT Sans', 'helvetica neue', helvetica, arial, sans-serif;
+            line-height:1.2em;
+            opacity:0.7;
+            display:block;
+            margin-top:8px;
+            color:rgba(255,255,255,0.68);
+            font-style:italic;
+            transition: color .15s ease-in-out;
+            -moz-transition: color .15s ease-in-out;
+            -webkit-transition: color .15s ease-in-out;
+        }
+
+        .chapters-div li:hover .chapter-title small {
+            color:rgba(255,255,255,0.88);
+        }
+
+
+
+        .chapters-indicator {
+            background-color:rgba(255,255,255,0.8);
+            font-family:'PT Sans', 'helvetica neue', helvetica, arial, sans-serif;
+            font-size:14px;
+            padding:5px 10px;
+            border-radius:2px;
+            position:fixed;
+            bottom:15px;
+            left:15px;
+            color:#555;
+            z-index:888;
+            cursor:pointer;
+             transition: color .15s ease-in-out, background-color .15s ease-in-out, transform .15s ease-in-out;
+            -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, -moz-transform .15s ease-in-out;
+            -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, -webkit-transform .15s ease-in-out;
+            border-style:solid;
+            border-color:#2C3135;
+            border-width: 0 0 0px 0;
+        }
+
+        .chapters-indicator i {margin-right:4px;}
+
+        .chapters-indicator:hover {
+            background-color:rgba(255,255,255,1);
+            color:#232323;
+        }
+
+        .chapters-indicator:active {
+            transform: scale(0.95);
+        }
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------
+Common elements
+--------------------------------------------------------------- */
+
+
+
+article .entry-content .aesop-component-align-left {
+	margin-right:40px;
+	margin-bottom:20px;
+}
+
+article .entry-content .aesop-component-align-right {
+	margin-left:40px;
+	margin-bottom:20px;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------
+Timelines stop elements
+--------------------------------------------------------------- */
+
+
+
+
+ #timeline-list-wrap {
+            
+            position:fixed;
+            top:50%;
+            right:5px;
+            transform: translate(-50%, -50%);
+            text-align:center;
+            z-index:999;
+            padding:5px;
+
+        }
+
+        #timeline-list ul {
+            margin:0;
+            padding:0;
+            list-style-type: none;
+
+
+        }
+
+        #timeline-list ul li {
+            margin:0;
+            padding:0;
+            position:relative;
+
+
+        }
+
+        #timeline-list ul li .bullet {
+            display:block;
+            width:15px;
+            height:15px;
+            border-style:solid;
+            border-color:rgba(255,255,255,1);
+            border-width:2px;
+            border-radius:50px;
+            margin: 7px 3px;
+            
+            background-color:#7f8c8d;
+            cursor:pointer;
+            text-align:right;
+            position:relative;
+        }
+
+        #timeline-list ul li .bullet:hover {
+            opacity:1;
+        }
+
+        #timeline-list ul li  .bullet-message {
+            position:absolute;
+            text-align:right;
+            right:30px;
+            top:-199990px;
+            width:400px;
+            border:0;
+            font-family:'PT Sans', 'helvetica neue', helvetica, arial, sans-serif;
+            opacity:0;
+            
+            transition: transform .125s ease-in-out, opacity .125s ease-in-out;
+            -moz-transition: transform .125s ease-in-out, opacity .125s ease-in-out;
+            -webkit-transition: transform .125s ease-in-out, opacity .125s ease-in-out;
+            transform: translate(-2%, 0);
+
+        }
+
+        #timeline-list ul li  .bullet-message span {
+            display:inline-block;
+            text-align:right;
+            position:relative;
+            background-color:#434343;
+            font-size:12px;
+            border:0 !important;
+            color:#fff;
+            padding:5px 10px;
+            border-radius:2px;
+            
+        
+            /*-webkit-font-smoothing:antialiased;*/
+        }
+
+
+         #timeline-list ul li:hover .bullet-message  {
+            display:inline-block;
+            opacity:1;
+            top:-10px;
+            transform: translate(0,0);
+         }
+
+
+
+     #timeline-list ul li  .bullet-message span:after {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(67, 67, 67, 0);
+        border-left-color: #434343;
+        border-width: 4px;
+        margin-top: -4px;
+    }
+
+
+
+/* ------------------------------------------------------------
+Event elements FIX (thanks to Dennytang http://themeforest.net/user/dennytang )
+--------------------------------------------------------------- */
+
+.aesop-events-shell, .aesop-events-shell > div, .scrollWrapper, .scrollableArea {
+    max-width: none !important;
+}
+
+.aesop-events-container {
+    height: auto !important;
+}
+
+.aesop-content {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .aesop-events-shell .aesop-content {
+        width: 100% !important;
+        padding: 20px;
+    }
+
+    .entry-content .aesop-events-shell li {
+        max-width: 100%;
+    }
+}

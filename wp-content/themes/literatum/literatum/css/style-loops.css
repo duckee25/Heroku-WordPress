@@ -1,0 +1,298 @@
+/*--------------------------------------------------------------
++ Loops (style for lists of posts)
+--------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------
++ Default loop
+--------------------------------------------------------------*/
+
+.loop_default-posts-list {
+	padding:50px 0;
+	margin:0;
+	list-style-type: none;
+}
+
+.loop_default-posts-list li {
+	padding: 25px 0;
+}
+
+.loop_default-posts-list li a {
+	text-decoration:none;
+}
+
+.loop_default-posts-list li .title {
+	font-size:24px;
+	font-family: Domine, 'Gentium Book Basic', serif;
+	text-decoration:none;
+	color:#3e3e3e;
+	/*font-weight:700;*/
+}
+
+.loop_default-posts-list li .title:hover {
+	text-decoration:underline;
+	color:#1e1e1e;
+}
+
+.loop_default-posts-list li .excerpt {
+	color:#877;
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+	padding-top:5px;
+	display:block;
+
+}
+
+.loop_default-posts-list li .meta {
+	font-family: 'Gentium Book Basic', serif;
+	font-size:13pt;
+	font-weight:300;
+	font-style:italic;
+	display:block;
+	color:#67747C;
+	padding-bottom:5px;
+	margin-top:10px;
+}
+
+.loop_default-posts-list li .meta a {
+	display:inline-block;
+	color:#67747C;
+	transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+}
+
+.loop_default-posts-list li .meta a:hover {
+	color:#3B444F;
+}
+
+.loop_default-posts-list li .meta a + a {
+	margin-left:15px;
+}
+
+.loop_default-posts-list li .meta a i {
+	margin-right:5px;
+	font-size:11pt;
+}
+
+
+
+.loop_default-posts-list li .meta a.author:before,
+.loop_default-posts-list li .meta a.comments:before,
+.loop_default-posts-list li .meta a.read_time:before,
+.loop_default-posts-list li .meta a.date:before {
+	font-family:icons;
+	margin-right:5px;
+	font-style:normal;
+}
+
+.loop_default-posts-list li .meta a.author:before {content: '\e825';}
+.loop_default-posts-list li .meta a.comments:before {content: '\e860';}
+.loop_default-posts-list li .meta a.read_time:before {content: '\e86f';}
+.loop_default-posts-list li .meta a.date:before {content: '\e886';}
+
+
+
+
+
+
+
+/* navigation */
+
+.loop_default-posts-list + .navigation {
+	text-align:center;
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+	margin-bottom:50px;
+	display:block;
+	color:#999;
+	font-size:18px;
+}
+
+.loop_default-posts-list + .navigation a {
+	text-decoration:none;
+	color:#288AD6;
+}
+
+.loop_default-posts-list + .navigation a:hover {
+	color:#206FAC;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------------
+ 3columns loop
+ ------------------------------------------------------------- */
+
+
+.loop_3columns-posts-list {
+	padding:0px 0;
+	margin:0;
+	list-style-type: none;
+	margin-top:-90px;
+	position:relative;
+}
+
+
+.author-profile-info + .content-area .loop_3columns-posts-list {margin-top:0;}
+
+li.loop_3columns-post-item {
+	display:inline-block;
+	width:33.33%;
+	vertical-align:top;
+	padding:20px;
+	position:relative;
+}
+
+
+
+.loop_3columns-posts-list li .featured_image {
+	width:100%;
+	height:250px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:block;
+	margin-bottom:10px;
+	border-radius:2px;
+	box-shadow:1px 1px 1px rgba(0,0,0,0.1);
+	transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+}
+
+
+.loop_3columns-posts-list li .featured_image:hover {
+
+}
+
+.loop_3columns-posts-list li .title {
+	font-size:22px;
+	font-family: Domine, 'Gentium Book Basic', serif;
+	text-decoration:none;
+	color:#3e3e3e;
+	font-weight:700;
+}
+
+.loop_3columns-posts-list li .excerpt {
+	color:#877;
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+	padding-top:5px;
+	display:block;
+	margin-bottom:5px;
+	font-size:13px;
+}
+
+
+
+.loop_3columns-posts-list li .meta {
+	font-family: 'Gentium Book Basic', serif;
+	font-size:11pt;
+	font-weight:300;
+	font-style:italic;
+	margin-top:-12px;
+	display:block;
+	color:#67747C;
+	padding-bottom:5px;
+}
+
+.loop_3columns-posts-list li .meta a {
+	display:inline-block;
+	color:#67747C;
+	transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+    text-decoration:none;
+}
+
+.loop_3columns-posts-list li .meta a:hover {
+	color:#3B444F;
+}
+
+.loop_3columns-posts-list li .meta  a {
+	margin-right:15px;
+}
+
+.loop_3columns-posts-list li .meta a i {
+	margin-right:5px;
+	font-size:11pt;
+}
+
+
+
+.loop_3columns-posts-list li .meta a.author:before,
+.loop_3columns-posts-list li .meta a.comments:before,
+.loop_3columns-posts-list li .meta a.read_time:before,
+.loop_3columns-posts-list li .meta a.date:before {
+	font-family:icons;
+	margin-right:5px;
+	font-style:normal;
+}
+
+.loop_3columns-posts-list li .meta a.author:before {content: '\e825';}
+.loop_3columns-posts-list li .meta a.comments:before {content: '\e860';}
+.loop_3columns-posts-list li .meta a.read_time:before {content: '\e86f';}
+.loop_3columns-posts-list li .meta a.date:before {content: '\e886';}
+
+
+
+
+
+/* navigation */
+
+.loop_3columns-posts-list + .navigation {
+	text-align:center;
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+	margin-bottom:50px;
+	margin-top:20px;
+	display:block;
+	color:#999;
+	font-size:18px;
+}
+
+.loop_3columns-posts-list + .navigation a {
+	text-decoration:none;
+	color:#288AD6;
+}
+
+.loop_3columns-posts-list + .navigation a:hover {
+	color:#206FAC;
+}
+
+
+
+/* ------------------------------------------------------------
+Responsive magic!
+------------------------------------------------------------ */
+
+
+ /* IPAD */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+	/* 3 to 2 columns */
+	li.loop_3columns-post-item {
+	width:50% ;
+
+	}
+
+}
+
+
+
+
+/* MOBILE */
+@media only screen and (min-width : 0px) and (max-width : 768px) {
+
+	/* 3 to 1 column */
+	li.loop_3columns-post-item {
+	width:100% ;
+
+	}
+
+
+}

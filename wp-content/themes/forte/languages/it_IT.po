@@ -1,0 +1,1572 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: forte\n"
+"POT-Creation-Date: 2013-06-15 19:09+0100\n"
+"PO-Revision-Date: 2013-06-15 19:10+0100\n"
+"Last-Translator: Manuel Masia | Pixedelic <manu@pixedelic.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:84
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivi Giornalieri: %s"
+
+#: ../archive.php:86
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivi Mensili: %s"
+
+#: ../archive.php:88
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivi Annuali: %s"
+
+#: ../archive.php:90 ../archive.php:92
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../archive.php:94
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archivi dell'autore: %s"
+
+#: ../archive.php:96
+msgid "Blog Archives"
+msgstr "Archivi"
+
+#: ../comments.php:11
+msgid "This post is password protected"
+msgstr "Questo post è protetto da password"
+
+#: ../comments.php:35
+#, php-format
+msgid "Comments to &#8220;%1$s&#8221;"
+msgstr "Commenti a &#8220;%1$s&#8221;"
+
+#: ../comments.php:59 ../functions/lib/pix_functions.php:1118
+msgid "Reply"
+msgstr "Rispondi"
+
+#: ../comments.php:78
+msgid "Name:"
+msgstr "Nome"
+
+#: ../comments.php:81
+msgid "Email:"
+msgstr ""
+
+#: ../comments.php:84
+msgid "Website:"
+msgstr "Sito web"
+
+#: ../comments.php:88
+msgid "Captcha:"
+msgstr ""
+
+#: ../comments.php:95
+msgid "Comment:"
+msgstr "Commento"
+
+#: ../comments.php:99
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: ../comments.php:104 ../functions/lib/pix_navmenu.php:366
+msgid "Cancel"
+msgstr "Cancella"
+
+#: ../loop-first.php:118 ../loop-second.php:114 ../loop-third.php:133
+msgid "Order by:"
+msgstr "Ordina per"
+
+#: ../loop-first.php:124 ../loop-first.php:131 ../loop-second.php:120
+#: ../loop-second.php:127 ../loop-third.php:139 ../loop-third.php:146
+msgid "Default"
+msgstr ""
+
+#: ../loop-first.php:125 ../loop-first.php:135 ../loop-second.php:121
+#: ../loop-second.php:131 ../loop-third.php:140 ../loop-third.php:150
+#: ../woocommerce/cart/cart.php:23
+msgid "Price"
+msgstr "Prezzo"
+
+#: ../loop-first.php:126 ../loop-first.php:143 ../loop-second.php:122
+#: ../loop-second.php:139 ../loop-third.php:141 ../loop-third.php:157
+msgid "Date"
+msgstr "Data"
+
+#: ../loop-first.php:127 ../loop-first.php:144 ../loop-second.php:123
+#: ../loop-second.php:140 ../loop-third.php:142 ../loop-third.php:158
+#: ../woocommerce/single-product-reviews.php:85
+msgid "Name"
+msgstr "Nome"
+
+#: ../loop-first.php:132 ../loop-second.php:128 ../loop-third.php:147
+msgid "Popularity"
+msgstr "Popolarità"
+
+#: ../loop-first.php:133 ../loop-second.php:129 ../loop-third.php:148
+msgid "Average rating"
+msgstr "Recensione media"
+
+#: ../loop-first.php:134 ../loop-second.php:130 ../loop-third.php:149
+msgid "Novità"
+msgstr ""
+
+#: ../loop-first.php:222 ../loop-second.php:219 ../loop-third.php:238
+msgid "Show:"
+msgstr "Mostra"
+
+#: ../loop-first.php:226 ../loop-second.php:223 ../loop-third.php:242
+msgid "All"
+msgstr "Tutti"
+
+#: ../loop-first.php:242 ../loop-second.php:239 ../loop-third.php:258
+msgid "Price range:"
+msgstr "Fascia di prezzo"
+
+#: ../loop-first.php:407 ../loop-first.php:611 ../loop-first.php:647
+#: ../loop-first.php:657 ../loop-related.php:226 ../loop-related.php:241
+#: ../loop-related.php:252 ../loop-second.php:362 ../loop-second.php:497
+#: ../loop-second.php:542 ../loop-second.php:582 ../loop-third.php:426
+#: ../loop-third.php:613
+#, php-format
+msgid "Go to %s"
+msgstr "Vai a %s"
+
+#: ../loop-first.php:423 ../loop-first.php:630 ../loop-first.php:677
+#: ../loop-related.php:247 ../loop-related.php:259 ../loop-second.php:378
+#: ../loop-second.php:513 ../loop-second.php:564 ../loop-third.php:661
+msgid "Read more"
+msgstr "Approfondisci"
+
+#: ../loop-first.php:754 ../loop-first.php:758 ../loop-second.php:657
+#: ../loop-second.php:661 ../loop-third.php:736 ../loop-third.php:740
+msgid "More items"
+msgstr "Più articoli"
+
+#: ../page.php:84 ../single-portfolio.php:116 ../single-wide-portfolio.php:119
+#: ../single-wide.php:119 ../single.php:117 ../widepage.php:78
+#: ../functions/lib/pix_functions.php:1134
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../search.php:68
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Cerca risultati per: %s"
+
+#: ../single-portfolio.php:198 ../single-wide-portfolio.php:201
+#: ../single-wide.php:210 ../single.php:205
+#, php-format
+msgid "About the author: %s"
+msgstr "In merito all'autore: %s"
+
+#: ../single-portfolio.php:255 ../single-wide-portfolio.php:258
+#: ../single-wide.php:239 ../single.php:234
+#: ../woocommerce/single-product/related.php:45
+msgid "Related items"
+msgstr "Argomenti correlati"
+
+#: ../functions/lib/pix_functions.php:275
+#: ../functions/lib/pix_functions.php:914
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: ../functions/lib/pix_functions.php:277
+msgid "Template"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:280
+#: ../functions/lib/pix_post-types.php:85
+#: ../functions/lib/pix_shortcodes.php:851
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: ../functions/lib/pix_functions.php:281
+#: ../functions/lib/pix_post-types.php:112
+msgid "Tags"
+msgstr "Tag"
+
+#: ../functions/lib/pix_functions.php:317
+msgid "None"
+msgstr "Nessuno"
+
+#: ../functions/lib/pix_functions.php:366
+#: ../functions/lib/pix_functions.php:1262
+msgid "Uncategorized"
+msgstr "Non categorizzato"
+
+#: ../functions/lib/pix_functions.php:380
+msgid "No tags"
+msgstr "Nessun tag"
+
+#: ../functions/lib/pix_functions.php:423 ../functions/lib/pix_widgets.php:719
+msgid "Search..."
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:425
+msgid "Show more options"
+msgstr "Mostra più opzioni"
+
+#: ../functions/lib/pix_functions.php:425
+msgid "Hide options"
+msgstr "Nascondi opzioni"
+
+#: ../functions/lib/pix_functions.php:427 ../functions/lib/pix_widgets.php:699
+msgid "Search among..."
+msgstr "Cerca tra..."
+
+#: ../functions/lib/pix_functions.php:437
+msgid "Uncheck all"
+msgstr "Deseleziona tutti"
+
+#: ../functions/lib/pix_functions.php:437
+msgid "Check all"
+msgstr "Seleziona tutti"
+
+#: ../functions/lib/pix_functions.php:479
+msgid "year"
+msgstr "anno"
+
+#: ../functions/lib/pix_functions.php:479
+msgid "years"
+msgstr "anni"
+
+#: ../functions/lib/pix_functions.php:480
+msgid "month"
+msgstr "mese"
+
+#: ../functions/lib/pix_functions.php:480
+msgid "months"
+msgstr "mesi"
+
+#: ../functions/lib/pix_functions.php:481
+msgid "week"
+msgstr "settimana"
+
+#: ../functions/lib/pix_functions.php:481
+msgid "weeks"
+msgstr "settimane"
+
+#: ../functions/lib/pix_functions.php:482
+msgid "day"
+msgstr "giorno"
+
+#: ../functions/lib/pix_functions.php:482
+msgid "days"
+msgstr "giorni"
+
+#: ../functions/lib/pix_functions.php:483
+msgid "hour"
+msgstr "ora"
+
+#: ../functions/lib/pix_functions.php:483
+msgid "hours"
+msgstr "ore"
+
+#: ../functions/lib/pix_functions.php:484
+msgid "minute"
+msgstr "minuto"
+
+#: ../functions/lib/pix_functions.php:484
+msgid "minutes"
+msgstr "minuti"
+
+#: ../functions/lib/pix_functions.php:485
+msgid "second"
+msgstr "secondo"
+
+#: ../functions/lib/pix_functions.php:485
+msgid "seconds"
+msgstr "secondi"
+
+#: ../functions/lib/pix_functions.php:505
+msgid "ago"
+msgstr "fa"
+
+#: ../functions/lib/pix_functions.php:701
+msgid "Products tagged &ldquo;"
+msgstr "Prodotto con il tag &ldquo;"
+
+#: ../functions/lib/pix_functions.php:706
+msgid "Items tagged &ldquo;"
+msgstr "Articoli con il tag &ldquo;"
+
+#: ../functions/lib/pix_functions.php:740
+#: ../functions/lib/pix_functions.php:847
+msgid "Search results for &ldquo;"
+msgstr "Risultati della ricerca per &ldquo;"
+
+#: ../functions/lib/pix_functions.php:811
+msgid "Error 404"
+msgstr "Errore 404"
+
+#: ../functions/lib/pix_functions.php:851
+msgid "Posts tagged &ldquo;"
+msgstr "Post con il tag &ldquo;"
+
+#: ../functions/lib/pix_functions.php:856
+msgid "Author:"
+msgstr "Autore"
+
+#: ../functions/lib/pix_functions.php:862
+msgid "Page"
+msgstr "Pagina"
+
+#: ../functions/lib/pix_functions.php:886
+msgid "Alternate text"
+msgstr "Testo alternativo"
+
+#: ../functions/lib/pix_functions.php:887
+msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
+msgstr "Testo alternativo per l'immagine, e.g. &#8220;Monnalisa&#8221;"
+
+#: ../functions/lib/pix_functions.php:891
+msgid "Alignment"
+msgstr "Allineamento"
+
+#: ../functions/lib/pix_functions.php:914
+msgid "Mini"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:914
+msgid "Medium thumbnail"
+msgstr "Miniatura media"
+
+#: ../functions/lib/pix_functions.php:914
+msgid "One column size"
+msgstr "Larghezza 1 colonna"
+
+#: ../functions/lib/pix_functions.php:914
+msgid "One column th. size"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:914
+msgid "Two column size"
+msgstr "Larghezza 2 colonne"
+
+#: ../functions/lib/pix_functions.php:914
+msgid "Three column size"
+msgstr "Larghezza 3 colonne"
+
+#: ../functions/lib/pix_functions.php:914
+msgid "Four columns size"
+msgstr "Larghezza 4 colonne"
+
+#: ../functions/lib/pix_functions.php:914
+msgid "Full size"
+msgstr "Larghezza massima"
+
+#: ../functions/lib/pix_functions.php:951
+msgid "Size"
+msgstr "Dimensione"
+
+#: ../functions/lib/pix_functions.php:988
+msgid "close"
+msgstr "chiudi"
+
+#: ../functions/lib/pix_functions.php:989
+msgid "next"
+msgstr "prossimo"
+
+#: ../functions/lib/pix_functions.php:990
+msgid "previous"
+msgstr "precedente"
+
+#: ../functions/lib/pix_functions.php:1088
+msgid "Administrator"
+msgstr "Amministratore"
+
+#: ../functions/lib/pix_functions.php:1112
+#: ../woocommerce/single-product/review.php:26
+msgid "Your comment is awaiting approval"
+msgstr "Il tuo commento è in attesa di approvazione"
+
+#: ../functions/lib/pix_functions.php:1117
+#: ../woocommerce/single-product/review.php:35
+msgid "M jS Y"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1129
+msgid "Your comment is awaiting moderation"
+msgstr "Il tuo commento è in attesa di moderazione"
+
+#: ../functions/lib/pix_functions.php:1237
+#, php-format
+msgid "<span>|&nbsp;Posted by %1$s in %2$s</span><span>|&nbsp;%3$s</span>"
+msgstr "<span>|&nbsp;Postato da %1$s in %2$s</span><span>|&nbsp;%3$s</span>"
+
+#: ../functions/lib/pix_functions.php:1240
+#, php-format
+msgid "Vedi tutti i posti di %s"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1284
+#: ../functions/lib/pix_functions.php:1290
+#: ../functions/lib/pix_functions.php:1304
+#: ../functions/lib/pix_functions.php:1330
+#: ../functions/lib/pix_functions.php:1336
+#: ../functions/lib/pix_functions.php:1350
+#, php-format
+msgid "Vedi tutti i posti in %s"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1683
+msgid "Post preferiti"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1684
+msgid "post"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1685
+msgid "5"
+msgstr ""
+
+#: ../functions/lib/pix_functions.php:1689
+msgid "Title:"
+msgstr "Titolo"
+
+#: ../functions/lib/pix_functions.php:1702
+msgid "Number of Posts to Show:"
+msgstr "Numero di Post da mostrare"
+
+#: ../functions/lib/pix_functions.php:1768
+msgid "Show All "
+msgstr "Mostra tutto"
+
+#: ../functions/lib/pix_functions.php:2271
+msgid "Label role"
+msgstr "Etichetta"
+
+#: ../functions/lib/pix_functions.php:2301
+msgid "Sale!"
+msgstr "In vendita!"
+
+#: ../functions/lib/pix_navmenu.php:7
+msgid "Primary menu"
+msgstr "Menu primario"
+
+#: ../functions/lib/pix_navmenu.php:163
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Non valido)"
+
+#: ../functions/lib/pix_navmenu.php:167
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (In attesa)"
+
+#: ../functions/lib/pix_navmenu.php:206 ../functions/lib/pix_navmenu.php:208
+msgid "Edit Menu Item"
+msgstr "Modifica l'elemento del Menu"
+
+#: ../functions/lib/pix_navmenu.php:220
+msgid "Use it for your megamenu"
+msgstr "Usalo per il tuo megamenu"
+
+#: ../functions/lib/pix_navmenu.php:226
+msgid "Descriptive icon"
+msgstr "Icona descrittiva"
+
+#: ../functions/lib/pix_navmenu.php:244
+msgid "Use it to start a new column or a new row"
+msgstr "Usalo per iniziare una nuova colonna o una nuova riga"
+
+#: ../functions/lib/pix_navmenu.php:246
+msgid "No"
+msgstr ""
+
+#: ../functions/lib/pix_navmenu.php:247
+msgid "Start a new column"
+msgstr "Inizia una nuova colonna"
+
+#: ../functions/lib/pix_navmenu.php:248
+msgid "Start a new row"
+msgstr "Inizia una nuova riga"
+
+#: ../functions/lib/pix_navmenu.php:255
+msgid "Make it &hellip; wide"
+msgstr "Fallo largo &hellip;"
+
+#: ../functions/lib/pix_navmenu.php:257
+msgid "1 column"
+msgstr "1 colonna"
+
+#: ../functions/lib/pix_navmenu.php:258
+msgid "2 columns"
+msgstr "2 colonne"
+
+#: ../functions/lib/pix_navmenu.php:259
+msgid "3 columns"
+msgstr "3 colonne"
+
+#: ../functions/lib/pix_navmenu.php:260
+msgid "4 columns"
+msgstr "4 colonne"
+
+#: ../functions/lib/pix_navmenu.php:270
+msgid "Use it as title"
+msgstr "Usalo come titolo"
+
+#: ../functions/lib/pix_navmenu.php:276
+msgid "Descriptive thumb"
+msgstr "Miniatura descrittiva"
+
+#: ../functions/lib/pix_navmenu.php:298
+msgid "URL"
+msgstr ""
+
+#: ../functions/lib/pix_navmenu.php:305
+msgid "Navigation Label"
+msgstr "Etichetta di Navigazione"
+
+#: ../functions/lib/pix_navmenu.php:312
+msgid "Title Attribute"
+msgstr "Attributo del titolo"
+
+#: ../functions/lib/pix_navmenu.php:320
+msgid "Link Target"
+msgstr "Destinazione del link"
+
+#: ../functions/lib/pix_navmenu.php:322
+msgid "Same window or tab"
+msgstr "Stessa finestra o tab"
+
+#: ../functions/lib/pix_navmenu.php:323
+msgid "New window or tab"
+msgstr "Nuova finestra o tab"
+
+#: ../functions/lib/pix_navmenu.php:331
+msgid "CSS Classes (optional)"
+msgstr "Classi CSS (opzionale)"
+
+#: ../functions/lib/pix_navmenu.php:337
+msgid "Link Relationship (XFN)"
+msgstr "Relazione tra link (XFN)"
+
+#: ../functions/lib/pix_navmenu.php:343
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../functions/lib/pix_navmenu.php:345
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr "La descrizione verrà mostrata nel menu se il tema corrente la supporta"
+
+#: ../functions/lib/pix_navmenu.php:352
+#, php-format
+msgid "Original: %s"
+msgstr "Originale: %s"
+
+#: ../functions/lib/pix_navmenu.php:365
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: ../functions/lib/pix_post-types.php:7
+msgid "Testimonials"
+msgstr "Testimonial"
+
+#: ../functions/lib/pix_post-types.php:8
+#: ../functions/lib/pix_post-types.php:20
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: ../functions/lib/pix_post-types.php:10
+msgid "Add a new testimonial"
+msgstr "Aggiungi un nuovo testimonial"
+
+#: ../functions/lib/pix_post-types.php:11
+msgid "Edit testimonial"
+msgstr "Modifica i testimonial"
+
+#: ../functions/lib/pix_post-types.php:12
+msgid "New testimonial"
+msgstr "Nuovo testimonial"
+
+#: ../functions/lib/pix_post-types.php:13
+msgid "View testimonial"
+msgstr "Vedi il testimonial"
+
+#: ../functions/lib/pix_post-types.php:38
+#: ../functions/lib/pix_post-types.php:39
+#: ../functions/lib/pix_post-types.php:52
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:41
+msgid "Add a new item"
+msgstr "Aggiungi un nuovo elemento"
+
+#: ../functions/lib/pix_post-types.php:42
+msgid "Edit item"
+msgstr "Modifica l'elemento"
+
+#: ../functions/lib/pix_post-types.php:43
+msgid "New item"
+msgstr "Nuovo elemento"
+
+#: ../functions/lib/pix_post-types.php:44
+msgid "View item"
+msgstr "Vedi l'elemento"
+
+#: ../functions/lib/pix_post-types.php:77
+msgid "Search Gallery"
+msgstr "Cerca nella Gallery"
+
+#: ../functions/lib/pix_post-types.php:78
+msgid "All Galleries"
+msgstr "Tutte le Gallery"
+
+#: ../functions/lib/pix_post-types.php:79
+msgid "Parent Gallery"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:80
+msgid "Parent Gallery:"
+msgstr ""
+
+#: ../functions/lib/pix_post-types.php:81
+msgid "Edit Gallery"
+msgstr "Modifica la Gallery"
+
+#: ../functions/lib/pix_post-types.php:82
+msgid "Update Gallery"
+msgstr "Aggiorna la Gallery"
+
+#: ../functions/lib/pix_post-types.php:83
+msgid "Add New Gallery"
+msgstr "Aggiungi una nuova Gallery"
+
+#: ../functions/lib/pix_post-types.php:84
+msgid "New Gallery Name"
+msgstr "Nome della nuova Gallery"
+
+#: ../functions/lib/pix_post-types.php:100
+msgid "Search tags"
+msgstr "Cerca tag"
+
+#: ../functions/lib/pix_post-types.php:101
+msgid "Popular tags"
+msgstr "Tag popolari"
+
+#: ../functions/lib/pix_post-types.php:102
+msgid "All tags"
+msgstr "Tutti i tag"
+
+#: ../functions/lib/pix_post-types.php:105
+msgid "Edit tag"
+msgstr "Modifica tag"
+
+#: ../functions/lib/pix_post-types.php:106
+msgid "Update tag"
+msgstr "Aggiorna tag"
+
+#: ../functions/lib/pix_post-types.php:107
+msgid "Add New tag"
+msgstr "Aggiungi un nuovo tag"
+
+#: ../functions/lib/pix_post-types.php:108
+msgid "New tag name"
+msgstr "Nuovo nome tag"
+
+#: ../functions/lib/pix_post-types.php:109
+msgid ""
+"Separate tags with commas. They will be used for filtering portfolio items"
+msgstr "Separa i tag con le virgole. Verranno usati per filtrare gli elementi del protfolio"
+
+#: ../functions/lib/pix_post-types.php:110
+msgid "Add or remove tags"
+msgstr "Aggiungi o rimuovi tag"
+
+#: ../functions/lib/pix_post-types.php:111
+msgid "Choose from the most used tags"
+msgstr "Scegli tra i tag più usati"
+
+#: ../functions/lib/pix_shortcodes.php:211
+msgid "Sended from:"
+msgstr "Inviato da:"
+
+#: ../functions/lib/pix_shortcodes.php:829
+msgid "Link to"
+msgstr "Collega a"
+
+#: ../functions/lib/pix_shortcodes.php:834
+msgid "Categories"
+msgstr "Categorie"
+
+#: ../functions/lib/pix_shortcodes.php:843
+msgid "Monthly archives"
+msgstr "Archivi mensili"
+
+#: ../functions/lib/pix_shortcodes.php:866
+msgid "Product categories"
+msgstr "Categorie di prodotto"
+
+#: ../functions/lib/pix_shortcodes.php:1022
+#: ../functions/lib/pix_widgets.php:629
+msgid ""
+"Sorry, no tweets available,<br>maybe because of the amount of requests<br>or "
+"maybe because Twitter is down..."
+msgstr "Ci dispiace, nessun tweet disponibile, <br>forse per un malfunzionamento di Twitter"
+
+#: ../functions/lib/pix_widgets.php:8
+msgid "Filter by price"
+msgstr "Filtra per prezzo"
+
+#: ../functions/lib/pix_widgets.php:18
+msgid "Woocommerce default sidebar"
+msgstr "Barra laterale di default di Woocommerce"
+
+#: ../functions/lib/pix_widgets.php:30
+msgid "Forte default sidebar"
+msgstr "Barra laterale di default di Forte"
+
+#: ../functions/lib/pix_widgets.php:51
+msgid "Default sidebar"
+msgstr "Barra laterale di default"
+
+#: ../functions/lib/pix_widgets.php:51
+msgid ""
+"This is the default sidebar. You can create other sidebars and add to them "
+"widgets. Play with them or read the documentation about them"
+msgstr "Questa è la Barra laterale di default. Puoi creare altre Barre laterali e aggiungerle a questa. Fai i tuoi esperimenti o leggi la documentazione"
+
+#: ../functions/lib/pix_widgets.php:94
+msgid "Recent posts with thumbnail and control on the excerpt length"
+msgstr "Post recenti con una miniatura e controllo della lunghezza dell'estratto"
+
+#: ../functions/lib/pix_widgets.php:95
+msgid "Pixedelic Recent Posts"
+msgstr "Post recenti Pixedelic"
+
+#: ../functions/lib/pix_widgets.php:201
+msgid "Create a thumb-gallery from your posts"
+msgstr "Crea una galleria di miniatura per i tuoi post"
+
+#: ../functions/lib/pix_widgets.php:202
+msgid "Pixedelic Thumb Gallery"
+msgstr "Gallery delle miniature pixedelic"
+
+#: ../functions/lib/pix_widgets.php:421
+msgid " on"
+msgstr " su"
+
+#: ../functions/lib/pix_widgets.php:421
+msgid "on"
+msgstr "su"
+
+#: ../functions/lib/pix_widgets.php:434
+msgid "Add a fading slide show for recent comments"
+msgstr "Aggiungi uno slide a scorrimento per mostrare i commenti recenti"
+
+#: ../functions/lib/pix_widgets.php:435
+msgid "Pixedelic Recent Comments"
+msgstr "Commenti recenti Pixedelic"
+
+#: ../functions/lib/pix_widgets.php:500
+msgid "Select a form"
+msgstr "Seleziona un form"
+
+#: ../functions/lib/pix_widgets.php:501
+msgid "Pixedelic Contact Forms"
+msgstr "Contact form Pixedelic"
+
+#: ../functions/lib/pix_widgets.php:533
+msgid "Contact us"
+msgstr "Contattaci"
+
+#: ../functions/lib/pix_widgets.php:571
+msgid "Display your recent tweets"
+msgstr "Mostra i tweet più recenti"
+
+#: ../functions/lib/pix_widgets.php:572
+msgid "Pixedelic Tweets"
+msgstr "Tweet Pixedelic"
+
+#: ../functions/lib/pix_widgets.php:588
+msgid "Follow"
+msgstr "Segui"
+
+#: ../functions/lib/pix_widgets.php:700
+msgid "Advanced search"
+msgstr "Ricerca avanzata"
+
+#: ../functions/lib/pix_widgets.php:725 ../functions/lib/pix_widgets.php:741
+msgid "advanced"
+msgstr "avanzato"
+
+#: ../functions/lib/pix_widgets.php:824 ../functions/lib/pix_widgets.php:825
+msgid "Login form"
+msgstr "Form per il Login"
+
+#: ../functions/lib/pix_widgets.php:850 ../functions/lib/pix_widgets.php:881
+msgid "Login"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:855 ../functions/lib/pix_widgets.php:860
+msgid "Success!"
+msgstr "Fatto!"
+
+#: ../functions/lib/pix_widgets.php:856
+msgid "Check your email for the password and then return to log in."
+msgstr "Controlla la tua mail per la password e poi torna a logorati"
+
+#: ../functions/lib/pix_widgets.php:861
+msgid "Check your email to reset your password."
+msgstr "Controlla la tua mail per resettare la tua password"
+
+#: ../functions/lib/pix_widgets.php:867 ../functions/lib/pix_widgets.php:892
+msgid "Username"
+msgstr "Nome utente"
+
+#: ../functions/lib/pix_widgets.php:871
+msgid "Password"
+msgstr ""
+
+#: ../functions/lib/pix_widgets.php:888
+msgid "Register"
+msgstr "Registrati"
+
+#: ../functions/lib/pix_widgets.php:896
+msgid "Your email"
+msgstr "Tua email"
+
+#: ../functions/lib/pix_widgets.php:901
+msgid "Sign up"
+msgstr "Iscriviti"
+
+#: ../functions/lib/pix_widgets.php:908
+msgid "Forgot?"
+msgstr "Dimenticato?"
+
+#: ../functions/lib/pix_widgets.php:912
+msgid "Username or Email"
+msgstr "Nome utente o email"
+
+#: ../functions/lib/pix_widgets.php:917
+msgid "Reset password"
+msgstr "Resetta la password"
+
+#: ../functions/lib/pix_widgets.php:934 ../functions/lib/pix_widgets.php:948
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: ../functions/lib/pix_widgets.php:941
+msgid "Change my password"
+msgstr "Cambia la mia password"
+
+#: ../functions/lib/pix_widgets.php:944 ../functions/lib/pix_widgets.php:950
+msgid "Log out"
+msgstr "Esci"
+
+#: ../functions/lib/pix_woocommerce.php:114
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr "Risultati della ricerca: &ldquo;%s&rdquo;"
+
+#: ../functions/lib/pix_woocommerce.php:134
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr "&nbsp;&ndash; Pagina %s"
+
+#: ../functions/lib/pix_woocommerce.php:1036
+msgid "Service Agreement Page ID"
+msgstr "ID della pagina del contratto del Servizio"
+
+#: ../functions/lib/pix_woocommerce.php:1037
+msgid ""
+"If you define a 'Service Agreement' page the customer will be asked if they "
+"agree to it when checking out."
+msgstr ""
+"Se definisci una pagina di 'Contratto di Servizio' ai clienti potrai chiedere"
+"se accettano le condizioni quando si apprestano a pagare."
+
+#: ../functions/lib/pix_woocommerce.php:1073
+#, php-format
+msgid "I agree to the %sservice agreement%s"
+msgstr "Accetto i %sservice agreement%s"
+
+#: ../functions/lib/pix_woocommerce.php:1085
+msgid "You must review and agree to our service agreement."
+msgstr "Devi leggere e accettare il nostro contratto di servizio"
+
+#: ../functions/lib/wordpress-importer/parsers.php:42
+#: ../functions/lib/wordpress-importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr "C'è stato un errore nella lettura di questo file WXR"
+
+#: ../functions/lib/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr "I dettagli sono mostrati sopra. L'importatore proverà ancora"
+"con un differente decodificatore"
+
+#: ../functions/lib/wordpress-importer/parsers.php:67
+#: ../functions/lib/wordpress-importer/parsers.php:72
+#: ../functions/lib/wordpress-importer/parsers.php:262
+#: ../functions/lib/wordpress-importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Questo non sembra essere un file WXR. Numero di versione WXR non valido o mancante"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:137
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:146
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:197
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:201
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:210
+msgid "Sorry, there has been an error."
+msgstr "Ci dispiace è avvenuto un errore"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:138
+msgid "The file does not exist, please try again."
+msgstr "Il file non esiste, per favore prova ancora"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:181
+msgid "All done."
+msgstr "Tutto fatto"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:181
+msgid "Have fun!"
+msgstr "Divertiti!"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:182
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Ricordati di aggiornare la password e i ruoli degli utenti importati"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:202
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Il file di esportazione non può essere trovato a <code>%s</code>. È come se"
+"questo fosse causato da un problema di permessi."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:218
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Il file WXR (version %s) non può essere supportato dalla versione di questo "
+"importatore. Per favore prendete in considerazione di aggiornarlo."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:243
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Importazione dell'autore %s fallita. I suoi post verranno attribuiti all'utente"
+"corrente."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:269
+msgid "Assign Authors"
+msgstr "Assegna autori"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:270
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Per facilitare la modifica e il salvataggio dei contenuti importati, puoi "
+"voler riassegnare gli autori degli elementi importati ad un autore esistente "
+"di questo sito. Per esempio, potresti voler importare tutto come <code>admin</"
+"code>s inserimenti."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:272
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Se un nuovo utente è creato da WordPress una password verrà creata "
+"casualmente e il nuovo ruolo dell'utente sarà impostato come %s. "
+"Sarà necessario cambiare i dettagli relativi al nuovo utente."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:282
+msgid "Import Attachments"
+msgstr "Allegati d'importazione"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:285
+msgid "Download and import file attachments"
+msgstr "Scarica e importa gli allegati"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:302
+msgid "Import author:"
+msgstr "Importa autore"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:313
+msgid "or create new user with login name:"
+msgstr "o crea un nuovo utente con il nome:"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:316
+msgid "as a new user:"
+msgstr "come un nuovo utente:"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:324
+msgid "assign posts to an existing user:"
+msgstr "assegna i post a un utente esistente:"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:326
+msgid "or assign posts to an existing user:"
+msgstr "o assegna i post a un utente esistente:"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:327
+msgid "- Select -"
+msgstr "- Seleziona -"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:377
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Errore nella creazione del nuovo utente per %s. I suoi post saranno"
+"attribuiti all'autore corrente."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Fallita importazione della categoria %s"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:464
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Fallita importazione dei tag dei post"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:508
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:638
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Fallita importazione %s %s"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:530
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Fallita importazione &#8220;%s&#8221;: Tipo di post non valido %s"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:551
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; già esistente."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:610
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Fallita importazione %s &#8220;%s&#8221;"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:756
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Elemento del menu saltato per la mancanza dello slug"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:763
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Elemento del menu saltato per numero non valido di slug: %s"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:835
+msgid "Fetching attachments is not enabled"
+msgstr "L'importazione degli allegati non è abilitata"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:848
+msgid "Invalid file type"
+msgstr "Tipo di file non valido"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:892
+msgid "Remote server did not respond"
+msgstr "Il server remoto non risponde"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:898
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Il server remoto ha dato una risposta d'errore %1$d %2$s"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:905
+msgid "Remote file is incorrect size"
+msgstr "Il file remoto è di una dimensione errata"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:910
+msgid "Zero size file downloaded"
+msgstr "File di dimensione 0 scaricato"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Il file remoto è troppo grande, il limite è %s"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:1015
+msgid "Import WordPress"
+msgstr "Importa WordPress"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:1022
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Una nuova versione dell'importatore è disponibile. Per favore aggiornate "
+"alla versione %s per la compatibilità con i più recenti file."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:1037
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Ciao! Carica il tuo file RSS eXtended di WordPress (WXR)e importeremo "
+"i post, le pagine, i commenti, i campi personalizzati, le categorie "
+"e i tag in questo sito."
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:1038
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "Scegli un file WXR (.xml) da caricare, poi clicca Carica file e importa"
+
+#: ../functions/lib/wordpress-importer/wordpress-importer.php:1112
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"Importa <strong>post, pagine, commenti, campi personalizzati, categorie e tag</"
+"strong> da un file di esportazione di WordPress."
+
+#: ../scripts/mailer/pix-comments-post.php:39
+msgid "Sorry, comments are closed for this item."
+msgstr "Ci dispiace, i commenti sono chiusi per questo elemento"
+
+#: ../scripts/mailer/pix-comments-post.php:76
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "Ci dispiace, devi essere loggato per inserire un commento"
+
+#: ../scripts/mailer/pix-comments-post.php:84
+#: ../scripts/mailer/pix-comments-post.php:86
+msgid ""
+"<strong>ERROR</strong>: please fill or check the required fields (name, "
+"email, captcha)."
+msgstr ""
+"<strong>ERRORE</strong>: per favore riempi o controlla i campi richiesti "
+"(Nome, email, captcha)."
+
+#: ../scripts/mailer/pix-comments-post.php:89
+msgid "<strong>ERROR</strong>: please enter a valid email address."
+msgstr "<strong>ERRORE</strong>: inserisci un indirizzo email valido."
+
+#: ../scripts/mailer/pix-comments-post.php:96
+msgid "<strong>ERROR</strong>: please type a comment."
+msgstr "<strong>ERRORE</strong>: inserisci un commento."
+
+#: ../woocommerce/single-product-reviews.php:37
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Valutato %s su 5"
+
+#: ../woocommerce/single-product-reviews.php:37
+#: ../woocommerce/single-product/review.php:22
+msgid "out of 5"
+msgstr "Su 5"
+
+#: ../woocommerce/single-product-reviews.php:47
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: ../woocommerce/single-product-reviews.php:63
+msgid ""
+"<div class=\"nav-previous pix_button tiny_button\"><span class=\"meta-nav"
+"\">&larr;</span> Previous</div>"
+msgstr ""
+"<div class=\"nav-previous pix_button tiny_button\"><span class=\"meta-nav"
+"\">&larr;</span> Precedente</div>"
+
+#: ../woocommerce/single-product-reviews.php:64
+msgid ""
+"<div class=\"nav-next pix_button tiny_button\">Next <span class=\"meta-nav"
+"\">&rarr;</span></div>"
+msgstr ""
+"<div class=\"nav-next pix_button tiny_button\">Prossimo <span class=\"meta-nav"
+"\">&rarr;</span></div>"
+
+#: ../woocommerce/single-product-reviews.php:72
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+"Non ci sono recensioni, vorresti essere il primo a <a href=\"#review_form\" class="
+"\"inline show_review_form\">inviare la tua</a>?"
+
+#: ../woocommerce/single-product-reviews.php:87
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:90
+msgid "Submit Review"
+msgstr "Invia una recensione"
+
+#: ../woocommerce/single-product-reviews.php:97
+msgid "Rating"
+msgstr "Valutazione"
+
+#: ../woocommerce/single-product-reviews.php:98
+msgid "Rate..."
+msgstr "Valuta..."
+
+#: ../woocommerce/single-product-reviews.php:99
+msgid "Perfect"
+msgstr "Perfetto"
+
+#: ../woocommerce/single-product-reviews.php:100
+msgid "Good"
+msgstr "Buono"
+
+#: ../woocommerce/single-product-reviews.php:101
+msgid "Average"
+msgstr "Nella media"
+
+#: ../woocommerce/single-product-reviews.php:102
+msgid "Not that bad"
+msgstr "Non male"
+
+#: ../woocommerce/single-product-reviews.php:103
+msgid "Very Poor"
+msgstr "Scarso"
+
+#: ../woocommerce/single-product-reviews.php:108
+msgid "Your Review"
+msgstr "La tua recensione"
+
+#: ../woocommerce/cart/cart.php:22 ../woocommerce/checkout/review-order.php:26
+#: ../woocommerce/checkout/review-order.php:268
+msgid "Product"
+msgstr "Prodotto"
+
+#: ../woocommerce/cart/cart.php:24
+msgid "Quantity"
+msgstr "Quantità"
+
+#: ../woocommerce/cart/cart.php:25 ../woocommerce/checkout/review-order.php:27
+msgid "Total"
+msgstr "Totale"
+
+#: ../woocommerce/cart/cart.php:43
+msgid "Remove:"
+msgstr "Rimuovi"
+
+#: ../woocommerce/cart/cart.php:45
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:70
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:76
+msgid "Price:"
+msgstr "Prezzo"
+
+#: ../woocommerce/cart/cart.php:86
+msgid "Quantity:"
+msgstr "Quantità"
+
+#: ../woocommerce/cart/cart.php:104
+msgid "Sub-total:"
+msgstr "Sub-totale"
+
+#: ../woocommerce/cart/cart.php:125
+msgid "Coupon"
+msgstr "Buono sconto"
+
+#: ../woocommerce/cart/cart.php:125
+msgid "Apply Coupon"
+msgstr "Applica un buono sconto"
+
+#: ../woocommerce/cart/cart.php:134
+msgid "Update Cart"
+msgstr "Applica"
+
+#: ../woocommerce/cart/cart.php:134
+msgid "Proceed to Checkout &rarr;"
+msgstr "Procedi al Pagamento &rarr;"
+
+#: ../woocommerce/cart/cross-sells.php:48
+msgid "You may be interested in&hellip;"
+msgstr "Potresti essere interessato a &hellip;"
+
+#: ../woocommerce/cart/mini-cart.php:53
+msgid "No products in the cart."
+msgstr "Nessun prodotto nel carrello"
+
+#: ../woocommerce/cart/mini-cart.php:61 ../woocommerce/cart/totals.php:146
+#: ../woocommerce/checkout/review-order.php:98
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: ../woocommerce/cart/mini-cart.php:66
+msgid "View Cart"
+msgstr "Vedi il Carrello"
+
+#: ../woocommerce/cart/mini-cart.php:67
+msgid "Checkout"
+msgstr "Pagamento"
+
+#: ../woocommerce/cart/shipping-calculator.php:18
+msgid "Calculate Shipping"
+msgstr "Calcola la Spedizione"
+
+#: ../woocommerce/cart/shipping-calculator.php:25
+msgid "Select a country&hellip;"
+msgstr "Scegli un Paese...;"
+
+#: ../woocommerce/cart/shipping-calculator.php:51
+msgid "Select a state&hellip;"
+msgstr "Scegli uno Stato..."
+
+#: ../woocommerce/cart/shipping-calculator.php:62
+msgid "State"
+msgstr "Stato"
+
+#: ../woocommerce/cart/shipping-calculator.php:70
+msgid "Postcode/Zip"
+msgstr "Codice Postale"
+
+#: ../woocommerce/cart/shipping-calculator.php:70
+msgid "Postcode"
+msgstr "Codice Postale"
+
+#: ../woocommerce/cart/shipping-calculator.php:73
+msgid "Update Totals"
+msgstr "Aggiorna il Totale"
+
+#: ../woocommerce/cart/shipping-methods.php:32
+msgid "Free"
+msgstr "Gratis"
+
+#: ../woocommerce/cart/shipping-methods.php:58
+#: ../woocommerce/cart/totals.php:99
+msgid "Please fill in your details to see available shipping methods."
+msgstr "Compila con i tuoi dati per verificare i modi di spedizione "
+
+#: ../woocommerce/cart/shipping-methods.php:60
+#: ../woocommerce/cart/totals.php:101
+#: ../woocommerce/checkout/review-order.php:360
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Ci dispiace, non sembra sia disponibile un modo per spedire nel tuo stato. "
+"Ti preghiamo di contattarci per trovare una soluzione alternativa. "
+"arrangements."
+
+#: ../woocommerce/cart/totals.php:22
+msgid "Cart Totals"
+msgstr "Totale del Carrello"
+
+#: ../woocommerce/cart/totals.php:28
+#: ../woocommerce/checkout/review-order.php:32
+#: ../woocommerce/checkout/review-order.php:276
+msgid "Cart Subtotal"
+msgstr "Subtotale del Carrello"
+
+#: ../woocommerce/cart/totals.php:35
+#: ../woocommerce/checkout/review-order.php:39
+#: ../woocommerce/checkout/review-order.php:283
+msgid "Cart Discount"
+msgstr "Sconto del Carrello"
+
+#: ../woocommerce/cart/totals.php:35 ../woocommerce/cart/totals.php:195
+msgid "[Remove]"
+msgstr "[Rimuovi]"
+
+#: ../woocommerce/cart/totals.php:46
+#: ../woocommerce/checkout/review-order.php:50
+#: ../woocommerce/checkout/review-order.php:294
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: ../woocommerce/cart/totals.php:132 ../woocommerce/cart/totals.php:159
+#: ../woocommerce/checkout/review-order.php:387
+#: ../woocommerce/checkout/review-order.php:411
+msgid "incl.&nbsp;"
+msgstr "incl."
+
+#: ../woocommerce/cart/totals.php:174 ../woocommerce/cart/totals.php:184
+#: ../woocommerce/checkout/review-order.php:118
+msgid "Tax"
+msgstr "Tasse"
+
+#: ../woocommerce/cart/totals.php:195
+#: ../woocommerce/checkout/review-order.php:129
+#: ../woocommerce/checkout/review-order.php:445
+msgid "Order Discount"
+msgstr "Sconto sull'ordine"
+
+#: ../woocommerce/cart/totals.php:202
+#: ../woocommerce/checkout/review-order.php:138
+#: ../woocommerce/checkout/review-order.php:454
+msgid "Order Total"
+msgstr "Totale dell'ordine"
+
+#: ../woocommerce/cart/totals.php:222
+#, php-format
+msgid "(taxes estimated for %s)"
+msgstr "(tasse estivate per %s)"
+
+#: ../woocommerce/cart/totals.php:224
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"Note: Spedizione e tasse sono stimate in %s e saranno aggiornate al momento "
+"del pagamento, sulla base delle tue informazioni di spedizione."
+
+#: ../woocommerce/cart/totals.php:234
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure their are no other available "
+"methods for your location."
+msgstr ""
+"Nessun modo di spedizione è stato trovato; per favore reinserite "
+"il vostro Codice Postale e assicuratevi che non ci sono altri "
+"metodi di spedizione per il vostro indirizzo."
+
+#: ../woocommerce/cart/totals.php:241
+#, php-format
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
+msgstr ""
+"Ci dispiace, sembra che non ci siano altri metodi di spedizione per la "
+"vostra ubicazione (%s)."
+#: ../woocommerce/cart/totals.php:243
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+"Se desiderate assistenza o desiderate una soluzione alternativa, "
+"per favore contattateci."
+
+#: ../woocommerce/checkout/review-order.php:156
+#, php-format
+msgid "(Includes %s)"
+msgstr "(Inclusi %s)"
+
+#: ../woocommerce/checkout/review-order.php:222
+#: ../woocommerce/checkout/review-order.php:517
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Riempi con i tuoi dati per verificare i metodi di pagamento disponibili"
+
+#: ../woocommerce/checkout/review-order.php:224
+#: ../woocommerce/checkout/review-order.php:519
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Ci dispiace, sembra che non ci siano metodi di pagamento possibili. "
+"Per favore, contattateci per trovare un'alternativa. "
+
+#: ../woocommerce/checkout/review-order.php:233
+#: ../woocommerce/checkout/review-order.php:529
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"Il tho browser non support i JavaScript, o risultano disabilitati, "
+"per favore clicca sul bottone <em>Aggiorna Totale</em> prima di completare "
+"l'ordine. Potrebbero esserci altrimenti errori nell'importo. "
+
+#: ../woocommerce/checkout/review-order.php:233
+#: ../woocommerce/checkout/review-order.php:529
+msgid "Update totals"
+msgstr "Aggiorna Totale"
+
+#: ../woocommerce/checkout/review-order.php:239
+#: ../woocommerce/checkout/review-order.php:535
+msgid "Place order"
+msgstr "Completa l'ordine"
+
+#: ../woocommerce/checkout/review-order.php:244
+msgid "I have read and accept the"
+msgstr "Ho letto e accetto i"
+
+#: ../woocommerce/checkout/review-order.php:244
+#: ../woocommerce/checkout/review-order.php:539
+msgid "terms &amp; conditions"
+msgstr "termini e le condizioni"
+
+#: ../woocommerce/checkout/review-order.php:269
+msgid "Qty"
+msgstr "Quantità"
+
+#: ../woocommerce/checkout/review-order.php:270
+msgid "Totals"
+msgstr "Totale"
+
+#: ../woocommerce/checkout/review-order.php:358
+msgid "Please fill in your details above to see available shipping methods."
+msgstr "Riempi con i tuoi dati per vedere i modi di spedizione disponibili"
+
+#: ../woocommerce/checkout/review-order.php:399
+msgid "Order Subtotal"
+msgstr "Subtotale dell'ordine"
+
+#: ../woocommerce/checkout/review-order.php:539
+msgid "I accept the"
+msgstr "Io accetto i"
+
+#: ../woocommerce/single-product/meta.php:15
+msgid "Codice prodotto:"
+msgstr ""
+
+#: ../woocommerce/single-product/product-image.php:91
+#: ../woocommerce/single-product/product-image.php:233
+msgid "Clicca per ingrandire"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:33
+msgid "verified owner"
+msgstr "verificare proprietario"
+
+#: ../woocommerce/single-product/up-sells.php:50
+msgid "You may also like&hellip;"
+msgstr "Potrebbero anche piacerti&hellip;"
+
+#: ../woocommerce/single-product/add-to-cart/grouped.php:76
+#: ../woocommerce/single-product/add-to-cart/grouped.php:99
+#: ../woocommerce/single-product/add-to-cart/simple.php:37
+#: ../woocommerce/single-product/add-to-cart/variable.php:93
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:36
+msgid "Choose an option"
+msgstr "Scegli un'opzione"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:81
+msgid "Clear selection"
+msgstr "Cancella la selezione "
+
+#: ../woocommerce/single-product/tabs/attributes.php:18
+msgid "Additional Information"
+msgstr "Informazioni addizionali"
+
+#: ../woocommerce/single-product/tabs/description.php:15
+msgid "Product Description"
+msgstr "Descrizione del prodotto"

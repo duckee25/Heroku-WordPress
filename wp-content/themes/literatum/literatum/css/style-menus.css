@@ -1,0 +1,127 @@
+/*--------------------------------------------------------------
++ Menus
+--------------------------------------------------------------*/
+
+
+
+/* main menu */
+
+.main-menu {
+	display:inline-block;
+	margin:0 15px 0 0;
+	padding:0;
+}
+ul.main-menu li{
+	display:inline-block;
+
+}
+
+ul.main-menu  li a {
+	color:#fff;
+	text-decoration:none;
+	font-weight:200;
+	display:inline-block;
+	font-family:'PT Sans', sans-serif;
+	
+	margin:auto 5px auto 5px;
+	
+
+	transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+ul.main-menu  li a:hover {
+	opacity:0.5;
+}
+
+ul.main-menu  li a:active {
+	opacity:0.3;
+}
+
+
+
+
+
+/* sidebar bottom menu */
+
+.bottom-menu-container ul {
+	padding:0;
+	margin:0;
+}
+.bottom-menu-container ul li {
+display:inline-block;
+}
+
+.bottom-menu-container ul li + li {
+	margin-left:8px;
+}
+
+.bottom-menu-container a {
+	text-decoration:none !important;
+}
+
+
+
+
+
+.primary-menu-container + .menu-pusher-container:before {
+	content: '·';
+	position:absolute;
+	margin-left:-6px;
+}
+
+
+@-moz-document url-prefix() {
+    .primary-menu-container + .menu-pusher-container:before {
+	content: '';
+	position:absolute;
+	margin-left:-6px;
+	}
+}
+
+
+/* main menu width fix */
+.primary-menu-container + .menu-pusher-container {
+	-webkit-flex-basis: 8.333333333% ;
+  -ms-flex-preferred-size: 8.333333333% ;
+  flex-basis: 8.333333333% ;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+
+
+
+
+/* ------------------------------------------------------------
+Responsive magic!
+------------------------------------------------------------ */
+
+
+ /* IPAD */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+/* MOBILE */
+@media only screen and (min-width : 0px) and (max-width : 768px) {
+
+
+	/* hide the main menu */
+	.primary-menu-container {
+		display:none !important;
+	}
+
+	.primary-menu-container + .menu-pusher-container:before { content: '';}
+
+	.menu-pusher-container {
+		-webkit-box-flex: 1 !important;
+  		-webkit-flex-grow: 1 !important;
+  		-ms-flex-positive: 1 !important;
+  		flex-grow: 1 !important;
+	}
+
+}

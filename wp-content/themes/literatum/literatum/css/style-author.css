@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------
++ author page
+--------------------------------------------------------------*/
+
+
+.author-profile-info {
+	text-align:center;
+	position:relative;
+	z-index:2;
+}
+
+
+.author-profile-info .author-avatar > img {
+	border-radius: 90px;
+	display:block;
+	margin:auto;
+	margin-top:-90px;
+	padding:8px;
+	background-color:#F9FBFF;
+	height:170px;
+
+}
+
+.author-profile-info .author-name {
+	font-size:29pt;
+	display:block;
+	font-weight:700;
+	margin-top:20px;
+	font-family: Domine, 'Gentium Book Basic', serif;
+}
+
+.author-profile-info .author-desc {
+	display:block;
+	margin-top:10px;
+	color:#67747C;
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+	font-size:16pt;
+}
+
+
+.author-profile-info .author-contact {
+	display:block;
+	padding-bottom:30px;
+	margin-top:28px;
+	border-style:solid;border-color:rgba(0,0,0,0.05);
+	border-width: 0 0 2px 0;
+}
+
+.author-profile-info .author-contact a.c-method {
+	display:inline-block;
+	padding:10px;
+	font-size:16px;
+	color:#206FAC;
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+	text-decoration:none;
+}
+
+.author-profile-info .author-contact a.c-method:hover {
+	color:#288AD6;
+}
+
+

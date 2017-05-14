@@ -1,0 +1,467 @@
+
+/*--------------------------------------------------------------
++ Articles
+--------------------------------------------------------------*/
+
+.entry-content {
+    min-height:750px;	
+}
+
+.entry-content .wp-video,
+.entry-content .fb-post,
+.entry-content div,
+.entry-content iframe {margin:auto}
+.entry-content .twitter-tweet {
+	margin:auto !important;
+	width: 100% !important;
+	max-width: 640px !important;
+}
+
+
+
+
+/* avoid the full width for divs inside the post content, useful for third-party plugins */
+
+
+article .entry-content div,
+article .entry-content pre
+ {
+	max-width:640px;
+	margin:auto;
+}
+
+
+/* jetpack fixes ----------------------------------------- */
+article .entry-content div.tiled-gallery, 
+article .entry-content div.tiled-gallery div{
+	max-width:100%;
+	margin:auto;
+}
+
+
+article .entry-content div.tiled-gallery.type-square,
+article .entry-content div.tiled-gallery.type-circle {
+	width:auto !important;
+	margin:auto !important;
+	max-width: 960px !important;
+}
+
+article .entry-content .tiled-gallery-caption {
+	font-family:'pt-sans', sans-serif;
+
+}
+
+
+div.sharedaddy h3.sd-title {
+	display:block;
+	font-family:'pt sans';
+	border:0;
+	font-size:12pt !important;
+	color:#777 !important;
+	font-weight:200 !important;
+	padding:0;
+}
+
+div.sharedaddy h3.sd-title:before {
+	content: '';
+	display:none;
+	border:0 !important;
+}
+/* -------------------------------------------------------- */
+
+
+
+.entry-content div.gallery {
+	max-width:none;
+}
+
+
+/* article */
+
+article .entry-content {
+	margin:70px auto 50px auto;
+	display:block;
+
+	font-family: 'Gentium Book Basic', serif;
+    font-weight:300;
+    text-align: left;
+	font-size:1.3em;
+
+    color:#5f5858; /* default color for the article text */
+
+}
+
+
+
+.article-default-width, article .entry-content  p, article ul, article ol {
+	max-width:680px;
+	margin:auto;
+	padding:0 20px;
+	
+}
+
+article ul, article ol {
+	padding-left:60px;
+	margin:30px auto;
+}
+
+article ul li, article ol li {
+	margin-top:8px;
+}
+
+
+article .entry-content > p,
+article .entry-content section > p {
+		margin: 35px auto;
+
+}
+
+article .entry-content > p > img, .alignnone, .aligncenter {
+	text-align:center;
+	margin:auto;
+}
+
+
+
+article blockquote, 
+article h1, 
+article h2, 
+article h3,
+article h4,
+article h5,
+article h6 {
+	max-width:680px;
+	margin:auto;
+	color:#3a3a3a;
+	padding:0 20px;
+	display:block;
+}
+
+article h1 {font-size:1.8em;font-weight:700;}
+article h2 {font-size:1.5em;font-weight:700;}
+article h3 {font-size:1.4em;}
+article h4 {font-size:1.33em;}
+
+
+article blockquote {
+		max-width:640px;
+	display:block;
+	border-style:solid;
+	border-color:#FFC83F;
+	border-width: 0 0 0 3px;
+	padding-left:40px;
+	font-style:italic;
+	font-weight:100;
+	opacity:0.8;
+}
+
+
+.alignleft {
+	text-align:left;
+}
+
+
+.wp-caption {
+	position:relative;
+	margin:auto;
+}
+
+.wp-caption img {
+	display:inline-block;
+	margin:0;
+}
+
+
+.wp-caption .wp-caption-text {
+	position:absolute;
+	width:100%;
+	background-color:rgba(0,0,0,0.6);
+	bottom:0px;
+	font-family:'pt sans', sans-serif;
+	text-align:left;
+	color:#fff;
+	font-weight:300;
+	font-size:13px;
+	padding:16px 20px 15px 20px;
+	margin:0;
+}
+
+.wp-caption .wp-caption-text a {
+	color:#fff;
+	text-decoration:underline;
+}
+
+
+
+.entry-footer {
+	font-size:15px;
+	font-family:'PT Sans', sans-serif;
+	color:#aaafaf;
+	font-weight:200;
+}
+
+.entry-footer  + .entry-footer  {margin-top:5px;}
+
+.entry-footer a {
+	text-decoration:none;
+	color:#2980b9;
+}
+
+.entry-footer a:hover {
+	color:#3498db;
+	text-decoration:underline;
+}
+
+
+.entry-footer .sharespan > a {
+	display:inline-block;
+	padding-left:10px;
+	cursor:pointer;
+}
+
+
+
+
+/* -------------------------------------------------------------
+Galleries
+--------------------------------------------------------------- */
+
+.gallery {
+	overflow:auto;
+	margin:70px 0 ;
+
+}
+
+.gallery + .gallery {
+	margin-top:-70px;
+}
+
+
+
+.gallery .gallery-item {
+	background-color:#f0f0f0;
+	display:inline-block;
+	margin: 0px 0 !important;
+	float:left;
+	position:relative;
+}
+
+
+.gallery-item .gallery-icon {
+max-width:100% !important;
+}
+
+
+.gallery-columns-1 .gallery-item {
+	width:100%;
+}
+
+
+
+
+.gallery-columns-2 .gallery-item {
+	width:50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	width:33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	width:25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	width:20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	width:16.66%;
+}
+
+
+.gallery .gallery-caption {
+	position:absolute;
+	bottom:0;
+	padding:10px;
+	background-color:rgba(0,0,0,0.4);
+	width:100%;
+	color:#fff;
+	font-family:'PT Sans', sans-serif;
+	font-weight:200;
+	font-size:13px;
+}
+
+
+.gallery .gallery-item a {
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+.gallery .gallery-item img {
+	width:100%;
+	display:block;
+	margin:0;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+Interview elements
+--------------------------------------------------------------*/
+
+.question, .answer {
+	font-family:inherit;
+  	display:block;
+	
+}
+
+
+.question {
+  margin-bottom:0px;
+  font-weight:700;
+  
+}
+
+.question:before {
+  content:'Question';
+}
+.answer:before {
+content:'Answer';
+}
+
+
+.answer {
+  margin-bottom:55px;
+  margin-top:-20px;
+}
+
+.question:before, .answer:before {
+  
+  position:absolute;
+  width:200px;
+  text-align:right;
+  margin-left:-220px;
+  font-size:13px;
+  color:#aaa;
+  font-weight:200;
+  font-style:italic;
+  display:block;
+  margin-top:4px;
+  transition: color .15s ease-in-out;
+  -moz-transition: color .15s ease-in-out;
+  -webkit-transition: color .15s ease-in-out;
+}
+
+.question:hover:before, .answer:hover:before {
+	color:#555;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+.wp-caption-text {
+	text-align: center;
+}
+.wp-caption .wp-caption-text {
+	
+}
+
+
+
+
+/*--------------------------------------------------------------
+Media
+--------------------------------------------------------------*/
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------
+Responsive magic!
+------------------------------------------------------------ */
+
+
+ /* IPAD */
+@media  screen and (min-width : 768px) and (max-width : 1024px) {
+
+	.gallery-columns-2 .gallery-item {
+		width:50%;
+	}
+
+	.gallery-columns-3 .gallery-item {
+		width:33.33%;
+	}
+
+	.gallery-columns-4 .gallery-item {
+		width:33.33%;
+	}
+
+	.gallery-columns-5 .gallery-item {
+		width:33.33%;
+	}
+
+	.gallery-columns-6 .gallery-item {
+		width:33.33%;
+	}
+
+}
+
+/* MOBILE */
+@media  screen and (min-width : 0px) and (max-width : 768px) {
+
+	.gallery-columns-2 .gallery-item {
+		width:50%;
+	}
+
+	.gallery-columns-3 .gallery-item {
+		width:50%;
+	}
+
+	.gallery-columns-4 .gallery-item {
+		width:50%;
+	}
+
+	.gallery-columns-5 .gallery-item {
+		width:50%;
+	}
+
+	.gallery-columns-6 .gallery-item {
+		width:50%;
+	}
+
+}
